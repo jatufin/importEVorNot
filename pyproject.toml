@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "importEVorNot"
+version = "0.1.0"
+description = ""
+authors = ["jatufin"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.2.2"
+pandas = "^1.5.1"
+matplotlib = "^3.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
