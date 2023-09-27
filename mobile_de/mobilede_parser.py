@@ -24,3 +24,6 @@ def extract_car_data(html):
     data["features"] = [item.get_text() for item in soup.find(id="features").find_all("div", {"class" : "bullet-list"})]
 
     return data
+
+def parse_ad_ids(html):
+    return re.findall(r"data-listing-id=(\d+)\s", html)
