@@ -1,6 +1,10 @@
 import requests
 import re
-def request_car_detail_page(id):
+import urllib.parse
+
+from car_mapping import CAR_MAKE_MAP, CAR_MAKE_MODEL_MAP
+
+def request_mobile_de_page(path):
     BASE_URL = 'https://suchen.mobile.de'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
@@ -10,7 +14,7 @@ def request_car_detail_page(id):
         'Cache-Control' :'max-age=0',
     }
 
-    resp = requests.get('{}/fahrzeuge/details.html?id={}'.format(BASE_URL, id), headers=headers)
+    resp = requests.get('{}{}'.format(BASE_URL, path), headers=headers)
     resp.status_code
     html = resp.text
 
@@ -57,3 +61,26 @@ def request_car_detail_page(id):
     )
 
     return resp3.text
+
+def request_car_detail_page(id):
+    return request_mobile_de_page('/fahrzeuge/details.html?id={}'.format(id))
+
+def request_search_page(make, model, page=1):
+    q_params = {
+        'cn': 'DE',
+        'fe': 'ELECTRIC_HEATED_SEATS',
+        'fr': '2022:',
+        'ft': 'ELECTRICITY',
+        'isSearchRequest': 'true',
+        'ms': '{};{};;'.format(CAR_MAKE_MAP[make], CAR_MAKE_MODEL_MAP[CAR_MAKE_MAP[make]][model]),
+        'od': 'up',
+        'pageNumber': str(page),
+        'ref': 'dsp',
+        's': 'Car',
+        'sb': 'p',
+        'vc': 'Car',
+    }
+    
+    q = urllib.parse.urlencode(q_params)
+    
+    return request_mobile_de_page('/fahrzeuge/search.html?{}'.format(q))
