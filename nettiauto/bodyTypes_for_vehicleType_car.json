@@ -1,0 +1,57 @@
+[
+  {
+    "id": 9,
+    "fi": "Avoauto",
+    "en": "Convertible"
+  },
+  {
+    "id": 12,
+    "fi": "Avolava",
+    "en": "Pickup"
+  },
+  {
+    "id": 1,
+    "fi": "Coupé",
+    "en": "Coupé"
+  },
+  {
+    "id": 4,
+    "fi": "Farmari",
+    "en": "Station Wagon"
+  },
+  {
+    "id": 52,
+    "fi": "Jatko-ohjaamo",
+    "en": "Extension cabin"
+  },
+  {
+    "id": 18,
+    "fi": "Kilpa-ajoneuvo",
+    "en": "Racing vehicle"
+  },
+  {
+    "id": 5,
+    "fi": "Maastoauto SUV",
+    "en": "All-terrain SUV"
+  },
+  {
+    "id": 8,
+    "fi": "Muu",
+    "en": "Other"
+  },
+  {
+    "id": 2,
+    "fi": "Porrasperä",
+    "en": "Sedan"
+  },
+  {
+    "id": 7,
+    "fi": "Tila-auto",
+    "en": "MPV"
+  },
+  {
+    "id": 3,
+    "fi": "Viistoperä",
+    "en": "Hatchback"
+  }
+]

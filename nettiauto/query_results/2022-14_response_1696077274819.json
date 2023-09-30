@@ -1,0 +1,329 @@
+[
+  {
+    "status": "forsale",
+    "id": "13881990",
+    "adUrl": "https://www.nettiauto.com/volvo/c40/13881990",
+    "userId": 345207,
+    "uuid": "0c83c6ca-e207-42b6-8ceb-df11b3d8988e",
+    "userName": "Bilia Oy",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T06:47:36Z",
+    "dateUpdated": "2023-09-30T10:51:59Z",
+    "lastModified": "2023-09-30T06:47:36Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 85,
+      "name": "Volvo",
+      "mostPopular": true
+    },
+    "model": {
+      "id": 4929,
+      "name": "C40"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 5,
+      "fi": "Maastoauto SUV",
+      "en": "All-terrain SUV"
+    },
+    "color": {
+      "id": 9,
+      "fi": "Harmaa",
+      "en": "Gray"
+    },
+    "colorType": {
+      "id": 2,
+      "fi": "Normaali väri",
+      "en": "Nonmetallic"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 3,
+      "fi": "Neliveto",
+      "en": "Four wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 13,
+      "fi": "Uusimaa",
+      "en": "Uusimaa"
+    },
+    "town": {
+      "id": 267,
+      "fi": "Helsinki",
+      "en": "Helsinki"
+    },
+    "accessories": [
+      {
+        "id": 4,
+        "fi": "Vetokoukku",
+        "en": "Tow bar"
+      },
+      {
+        "id": 5,
+        "fi": "Kevytmetallivanteet",
+        "en": "Alloy wheels"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 1021,
+        "fi": "Kattoluukku: Panoraama",
+        "en": "Sun hatch: With panorama"
+      },
+      {
+        "id": 1004,
+        "fi": "Sähkösäätöiset istuimet: Muistilla",
+        "en": "Electric seats: With memory"
+      },
+      {
+        "id": 25,
+        "fi": "Penkinlämmittimet",
+        "en": "Seat heaters"
+      },
+      {
+        "id": 26,
+        "fi": "Pysäköintitutka",
+        "en": "Parking sensors"
+      },
+      {
+        "id": 31,
+        "fi": "Sumuvalot",
+        "en": "Fog lights"
+      },
+      {
+        "id": 41,
+        "fi": "Isofix-valmius",
+        "en": "Isofix-ready"
+      },
+      {
+        "id": 47,
+        "fi": "Sähkötoiminen takaluukku",
+        "en": "Electrically operated tailgate"
+      },
+      {
+        "id": 58,
+        "fi": "Kaistavahti",
+        "en": "Lane departure warning system"
+      },
+      {
+        "id": 63,
+        "fi": "Törmäysvaroitin",
+        "en": "Collision avoidance system"
+      }
+    ],
+    "tags": [
+      {
+        "id": 3,
+        "fi": "Maasturit",
+        "en": "Used SUVs and off-road vehicles",
+        "descriptionFi": "Etsitkö citymaasturia asfalttiviidakkoon vai maastoautoa metsäteille? Katumaastureita ja muita erityyppisiä maastoautoja yhdistävät suuret renkaat, korkea maavara ja mahdollisuus ajaa myös tien ulkopuolella.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 35,
+        "fi": "Nelivedot",
+        "en": "Used 4WDs and four-wheel drives",
+        "descriptionFi": "Nelivetoautossa kaikki neljä pyörää ovat vetäviä pyöriä. Neliveto helpottaa ajoa liukkaalla alustalla ja vaativissa olosuhteissa.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      },
+      {
+        "id": 72,
+        "fi": "Takuuvaihtoautot",
+        "en": "Takuuvaihtoautot",
+        "descriptionFi": "Takuuvaihtoauto on uudenveroinen käytetty auto, jolle automerkki antaa oman takuun. Jokainen tarkasti valittu takuuvaihtoauto on valmistajan takuuohjelman mukaisesti kuntotarkastettu ja huollettu. Takuun autolle myöntää valtuutettu jälleenmyyjä.",
+        "descriptionEn": "Takuuvaihtoauto on uudenveroinen käytetty auto, jolle automerkki antaa oman takuun. Jokainen tarkasti valittu takuuvaihtoauto on valmistajan takuuohjelman mukaisesti kuntotarkastettu ja huollettu. Takuun autolle myöntää valtuutettu jälleenmyyjä."
+      }
+    ],
+    "warranties": [
+      {
+        "id": 3,
+        "name": "Volvo",
+        "description": "Volvo Selekt – vaihtoautojen parhaimmisto. Volvo Selekt -vaihtoautotakuu 12 kk/24 kk tai 36 kk.",
+        "showSourceLink": true,
+        "url": "https://www.volvocars.com/fi/l/volvo-selekt-vaihtoautot/",
+        "urlName": "Lue lisää",
+        "logo": "https://cdn.almaajo.fi/live/asset/car/warranty/37cc8db89aaf7b87.png"
+      }
+    ],
+    "year": 2022,
+    "modelTypeName": "Recharge Twin Launch Edition aut | Rahoitus 4,99 % + kulut | 2 renk, Pixelit, ym.",
+    "vin": null,
+    "firstRegistrationMonth": null,
+    "firstRegistrationYear": null,
+    "roadWorthy": true,
+    "lastInspectionMonth": 12,
+    "lastInspectionYear": 2021,
+    "tooNewForInspections": false,
+    "price": 58780,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "GPO-234",
+    "showRegisterNumber": true,
+    "totalOwners": null,
+    "description": "\r\n \r\n•  | Käyttöönotto pvm: 7.12.2021 | [TULOSSA MYYNTIIN] | Volvo Selekt | TAKUU 12 KK | \r\n• 360-linkki | https://bilia.fi/fi/auto/volvo-c40-gpo234/\r\n• LISÄVARUSTEET:\r\n• Vetokoukku, puoliautomaattinen (1028)\r\n• Verhoilu: Kangas/microtech Connect, Charcoal (R980)\r\n• 728 Thunder grey metalli\r\n• Alumiinivanteet 20\" 5-spoke black diamond cut (1185)\r\n• Tummennetut takalasit (179)\r\n• Aktiivinen kaistallapitoavustin\r\n• Alamäkihidastin (HDC)\r\n• Aluvanteet kesä-ja talvirenkaissa (19 tuuman kitkoilla)\r\n• Alv-vähennyskelpoinen\r\n• Automaattinen ilmastointi ECC\r\n• Automaattisesti himmenevät ulkopeilit ja taustapeili (169)\r\n• Clean Zone (AQS ja matkustamon esituuletus)\r\n• Connected Safety (vaatii internet-yhteyden)\r\n• Etusumuvalot LED (16)\r\n• Google Assistant ei tue suomen kieltä\r\n• HVCH, matkustamon sähkölämmitin\r\n• Induktiolataus älypuhelimelle keskikonsolissa (918)\r\n• ISOFIX-kiinnikkeet takasivuistuimilla\r\n• Kaistavahti ja kuljettajan tarkkailutoiminto\r\n• Korkeajänniteakku, kokonaiskapasiteetti 78 kWh\r\n• Latauskaapeli Suko/Type2\r\n• Latauskaapeli Type2/Type2, 16A, 3-vaiheinen (4,5m)\r\n• LED High Level muk. pikseliajovalot (tuotantovk 10/22 asti)\r\n• Liikennemerkki-informaatio\r\n• Lämmitettävä ohjauspyörä (869)\r\n• Lämmitettävä takaistuin, reunapaikat (752)\r\n• Lämmitettävät etuistuimet\r\n• Lämmitettävät tuulilasinpesusuuttimet (63)\r\n• Lämpöpumppu\r\n• Ohjauspyörä urheilullinen (489)\r\n• Ostoskassin pidin/tavaratilan jakaja (346)\r\n• Panoraamakatto, ei avattava\r\n• Pysäköintiapu visuaalinen 360 lintuperspektiivi (139)\r\n• Pysäköintitutka taakse ja eteen (691)\r\n• Rengaspaineen valvontajärjestelmä\r\n• Sähkötoiminen etumatkustajanistuin (10)\r\n• Sähkötoiminen kuljettajanistuin muistilla (47)\r\n• Sähkötoiminen takaluukku hands free -toiminnolla (115)\r\n• Sähkötoimiset lapsilukot (114)\r\n• Törmäysvaroitin automaattisella täysjarrutuksella\r\n• Volvo On Call",
+    "showPostingDate": true,
+    "kilometers": 19000,
+    "engineSize": null,
+    "seats": 5,
+    "doors": 5,
+    "steeringWheelLeft": true,
+    "power": 300,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": null,
+    "co2Emission": null,
+    "topSpeed": 180,
+    "acceleration": 0,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": 2185,
+    "grossWeight": 2620,
+    "towWeightWithBrakes": 1800,
+    "towWeightWithoutBrakes": 750,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot&rekkari=GPO-234&kuva=https://images.nettiauto.com/live/2022/03/07/12300878bb8c3d58-large.jpg&ajoneuvolaji=1",
+    "showPriceHistory": true,
+    "deliveryCost": 195,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147410274,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/12300878bb8c3d58-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/12300878bb8c3d58-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/12300878bb8c3d58-medium.jpg",
+          "width": 544,
+          "height": 306
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/12300878bb8c3d58-large.jpg",
+          "width": 1152,
+          "height": 648
+        }
+      },
+      {
+        "id": 147410283,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/11/985ac0d22616ba9d-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/11/985ac0d22616ba9d-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/11/985ac0d22616ba9d-medium.jpg",
+          "width": 640,
+          "height": 390
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/11/985ac0d22616ba9d-large.jpg",
+          "width": 1281,
+          "height": 780
+        }
+      },
+      {
+        "id": 147410290,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/11/c13128ffc8aa3220-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/11/c13128ffc8aa3220-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/11/c13128ffc8aa3220-medium.jpg",
+          "width": 640,
+          "height": 446
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/11/c13128ffc8aa3220-large.jpg",
+          "width": 896,
+          "height": 624
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "50 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  }
+]

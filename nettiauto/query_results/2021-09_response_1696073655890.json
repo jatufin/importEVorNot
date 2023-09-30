@@ -1,0 +1,4075 @@
+[
+  {
+    "status": "forsale",
+    "id": "13881894",
+    "adUrl": "https://www.nettiauto.com/tesla/model-3/13881894",
+    "userId": 24452,
+    "uuid": "98e087ba-4cd2-4c25-a21d-47a4b6230ccc",
+    "userName": "Oy Conalin Ab CONALIN CARS",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T02:12:23Z",
+    "dateUpdated": "2023-09-30T02:14:23Z",
+    "lastModified": "2023-09-30T02:12:23Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 437,
+      "name": "Tesla",
+      "mostPopular": false
+    },
+    "model": {
+      "id": 4671,
+      "name": "Model 3"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 2,
+      "fi": "Porrasperä",
+      "en": "Sedan"
+    },
+    "color": {
+      "id": 6,
+      "fi": "Valkoinen",
+      "en": "White"
+    },
+    "colorType": {
+      "id": 2,
+      "fi": "Normaali väri",
+      "en": "Nonmetallic"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 2,
+      "fi": "Takaveto",
+      "en": "Rear wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 14,
+      "fi": "Pohjanmaa",
+      "en": "Pohjanmaa"
+    },
+    "town": {
+      "id": 302,
+      "fi": "Pietarsaari",
+      "en": "Pietarsaari"
+    },
+    "accessories": [
+      {
+        "id": 1,
+        "fi": "Ohjaustehostin",
+        "en": "Power steering"
+      },
+      {
+        "id": 1002,
+        "fi": "Keskuslukitus: Kaukosäätöinen",
+        "en": "Central locking: Remote control"
+      },
+      {
+        "id": 3,
+        "fi": "Sähkökäyttöiset ikkunat",
+        "en": "Power windows"
+      },
+      {
+        "id": 5,
+        "fi": "Kevytmetallivanteet",
+        "en": "Alloy wheels"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 11,
+        "fi": "Nahkaverhoilu",
+        "en": "Leather upholstery"
+      },
+      {
+        "id": 12,
+        "fi": "Lukkiutumattomat jarrut (ABS)",
+        "en": "ABS brakes"
+      },
+      {
+        "id": 13,
+        "fi": "Turvatyynyt",
+        "en": "Airbag"
+      },
+      {
+        "id": 16,
+        "fi": "Käynnistyksenesto",
+        "en": "Immobilizer"
+      },
+      {
+        "id": 1021,
+        "fi": "Kattoluukku: Panoraama",
+        "en": "Sun hatch: With panorama"
+      },
+      {
+        "id": 19,
+        "fi": "Luistonestojärjestelmä",
+        "en": "Traction control"
+      },
+      {
+        "id": 1005,
+        "fi": "Vakionopeudensäädin: Perinteinen",
+        "en": "Cruise control: Traditional"
+      },
+      {
+        "id": 1003,
+        "fi": "Sähkösäätöiset istuimet: Ilman muistia",
+        "en": "Electric seats: Without memory"
+      },
+      {
+        "id": 23,
+        "fi": "Ajotietokone",
+        "en": "On board computer"
+      },
+      {
+        "id": 25,
+        "fi": "Penkinlämmittimet",
+        "en": "Seat heaters"
+      },
+      {
+        "id": 26,
+        "fi": "Pysäköintitutka",
+        "en": "Parking sensors"
+      },
+      {
+        "id": 27,
+        "fi": "Sähköpeilit",
+        "en": "Electric mirrors"
+      },
+      {
+        "id": 28,
+        "fi": "Navigointijärjestelmä",
+        "en": "Satellite navigator"
+      },
+      {
+        "id": 29,
+        "fi": "Ajonvakautusjärjestelmä",
+        "en": "Driving assistant"
+      },
+      {
+        "id": 36,
+        "fi": "Monitoimiohjauspyörä",
+        "en": "Multiactive Steering Wheel"
+      },
+      {
+        "id": 38,
+        "fi": "Matkapuhelinvarustus",
+        "en": "Hands-free kit"
+      },
+      {
+        "id": 40,
+        "fi": "Lasikatto",
+        "en": "Sunroof"
+      },
+      {
+        "id": 41,
+        "fi": "Isofix-valmius",
+        "en": "Isofix-ready"
+      },
+      {
+        "id": 47,
+        "fi": "Sähkötoiminen takaluukku",
+        "en": "Electrically operated tailgate"
+      },
+      {
+        "id": 1018,
+        "fi": "Peruutuskamera: Kamera takana",
+        "en": "Parking camera: Simple camera"
+      },
+      {
+        "id": 56,
+        "fi": "Rengaspainevalvonta -järjestelmä",
+        "en": "Tire-pressure monitoring system"
+      },
+      {
+        "id": 58,
+        "fi": "Kaistavahti",
+        "en": "Lane departure warning system"
+      }
+    ],
+    "tags": [
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "warranties": null,
+    "year": 2021,
+    "modelTypeName": "Standard Range Plus, Lämpöpumppu, Autopilot, Tehdastakuu!",
+    "vin": null,
+    "firstRegistrationMonth": 5,
+    "firstRegistrationYear": 2021,
+    "roadWorthy": true,
+    "lastInspectionMonth": null,
+    "lastInspectionYear": null,
+    "tooNewForInspections": false,
+    "price": 36890,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "24452_223412",
+    "showRegisterNumber": false,
+    "totalOwners": null,
+    "description": "1-omistaja, Bluetooth, Metalliväri, Navigointi (iso näyttö)",
+    "showPostingDate": true,
+    "kilometers": 34657,
+    "engineSize": null,
+    "seats": 5,
+    "doors": 4,
+    "steeringWheelLeft": true,
+    "power": null,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": null,
+    "co2Emission": null,
+    "topSpeed": 225,
+    "acceleration": 0,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": 1825,
+    "grossWeight": 2139,
+    "towWeightWithBrakes": null,
+    "towWeightWithoutBrakes": null,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot",
+    "showPriceHistory": true,
+    "deliveryCost": 95,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147382494,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/7777e59a77f0c108-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/7777e59a77f0c108-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/7777e59a77f0c108-medium.jpg",
+          "width": 640,
+          "height": 481
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/7777e59a77f0c108-large.jpg",
+          "width": 1021,
+          "height": 767
+        }
+      },
+      {
+        "id": 147382495,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/3759d1ea45bf1208-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/3759d1ea45bf1208-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/3759d1ea45bf1208-medium.jpg",
+          "width": 640,
+          "height": 481
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/3759d1ea45bf1208-large.jpg",
+          "width": 1021,
+          "height": 767
+        }
+      },
+      {
+        "id": 147382493,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/a5a8220e4c990bdc-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/a5a8220e4c990bdc-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/a5a8220e4c990bdc-medium.jpg",
+          "width": 640,
+          "height": 481
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/a5a8220e4c990bdc-large.jpg",
+          "width": 1021,
+          "height": 767
+        }
+      },
+      {
+        "id": 147382497,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/0280cf0b371f7d33-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/0280cf0b371f7d33-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/0280cf0b371f7d33-medium.jpg",
+          "width": 640,
+          "height": 481
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/0280cf0b371f7d33-large.jpg",
+          "width": 1021,
+          "height": 767
+        }
+      },
+      {
+        "id": 147382498,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/aa0844264b68b0f8-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/aa0844264b68b0f8-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/aa0844264b68b0f8-medium.jpg",
+          "width": 640,
+          "height": 481
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/aa0844264b68b0f8-large.jpg",
+          "width": 1021,
+          "height": 767
+        }
+      },
+      {
+        "id": 147382496,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/8204c9753cec1687-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/8204c9753cec1687-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/8204c9753cec1687-medium.jpg",
+          "width": 640,
+          "height": 481
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/05/02/8204c9753cec1687-large.jpg",
+          "width": 1021,
+          "height": 767
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "380 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  },
+  {
+    "status": "forsale",
+    "id": "13881896",
+    "adUrl": "https://www.nettiauto.com/tesla/model-3/13881896",
+    "userId": 24452,
+    "uuid": "98e087ba-4cd2-4c25-a21d-47a4b6230ccc",
+    "userName": "Oy Conalin Ab CONALIN CARS",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T02:12:32Z",
+    "dateUpdated": "2023-09-30T02:14:24Z",
+    "lastModified": "2023-09-30T02:12:32Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 437,
+      "name": "Tesla",
+      "mostPopular": false
+    },
+    "model": {
+      "id": 4671,
+      "name": "Model 3"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 2,
+      "fi": "Porrasperä",
+      "en": "Sedan"
+    },
+    "color": {
+      "id": 6,
+      "fi": "Valkoinen",
+      "en": "White"
+    },
+    "colorType": {
+      "id": 2,
+      "fi": "Normaali väri",
+      "en": "Nonmetallic"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 2,
+      "fi": "Takaveto",
+      "en": "Rear wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 14,
+      "fi": "Pohjanmaa",
+      "en": "Pohjanmaa"
+    },
+    "town": {
+      "id": 302,
+      "fi": "Pietarsaari",
+      "en": "Pietarsaari"
+    },
+    "accessories": [
+      {
+        "id": 1,
+        "fi": "Ohjaustehostin",
+        "en": "Power steering"
+      },
+      {
+        "id": 1002,
+        "fi": "Keskuslukitus: Kaukosäätöinen",
+        "en": "Central locking: Remote control"
+      },
+      {
+        "id": 3,
+        "fi": "Sähkökäyttöiset ikkunat",
+        "en": "Power windows"
+      },
+      {
+        "id": 4,
+        "fi": "Vetokoukku",
+        "en": "Tow bar"
+      },
+      {
+        "id": 5,
+        "fi": "Kevytmetallivanteet",
+        "en": "Alloy wheels"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 12,
+        "fi": "Lukkiutumattomat jarrut (ABS)",
+        "en": "ABS brakes"
+      },
+      {
+        "id": 13,
+        "fi": "Turvatyynyt",
+        "en": "Airbag"
+      },
+      {
+        "id": 16,
+        "fi": "Käynnistyksenesto",
+        "en": "Immobilizer"
+      },
+      {
+        "id": 1021,
+        "fi": "Kattoluukku: Panoraama",
+        "en": "Sun hatch: With panorama"
+      },
+      {
+        "id": 19,
+        "fi": "Luistonestojärjestelmä",
+        "en": "Traction control"
+      },
+      {
+        "id": 1005,
+        "fi": "Vakionopeudensäädin: Perinteinen",
+        "en": "Cruise control: Traditional"
+      },
+      {
+        "id": 25,
+        "fi": "Penkinlämmittimet",
+        "en": "Seat heaters"
+      },
+      {
+        "id": 26,
+        "fi": "Pysäköintitutka",
+        "en": "Parking sensors"
+      },
+      {
+        "id": 27,
+        "fi": "Sähköpeilit",
+        "en": "Electric mirrors"
+      },
+      {
+        "id": 28,
+        "fi": "Navigointijärjestelmä",
+        "en": "Satellite navigator"
+      },
+      {
+        "id": 29,
+        "fi": "Ajonvakautusjärjestelmä",
+        "en": "Driving assistant"
+      },
+      {
+        "id": 36,
+        "fi": "Monitoimiohjauspyörä",
+        "en": "Multiactive Steering Wheel"
+      },
+      {
+        "id": 40,
+        "fi": "Lasikatto",
+        "en": "Sunroof"
+      },
+      {
+        "id": 41,
+        "fi": "Isofix-valmius",
+        "en": "Isofix-ready"
+      },
+      {
+        "id": 44,
+        "fi": "Avaimeton käynnistys",
+        "en": "Keyless start"
+      },
+      {
+        "id": 47,
+        "fi": "Sähkötoiminen takaluukku",
+        "en": "Electrically operated tailgate"
+      },
+      {
+        "id": 1018,
+        "fi": "Peruutuskamera: Kamera takana",
+        "en": "Parking camera: Simple camera"
+      },
+      {
+        "id": 56,
+        "fi": "Rengaspainevalvonta -järjestelmä",
+        "en": "Tire-pressure monitoring system"
+      },
+      {
+        "id": 57,
+        "fi": "Nopeusrajoitus -tunnistin",
+        "en": "Traffic sign recognition"
+      },
+      {
+        "id": 58,
+        "fi": "Kaistavahti",
+        "en": "Lane departure warning system"
+      },
+      {
+        "id": 68,
+        "fi": "Akuston esilämmitys",
+        "en": "Battery preheating"
+      }
+    ],
+    "tags": [
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "warranties": null,
+    "year": 2021,
+    "modelTypeName": "Standard Range Plus, Vetokoukku, Lämpöpumppu, Tehdastakuu!",
+    "vin": null,
+    "firstRegistrationMonth": 3,
+    "firstRegistrationYear": 2021,
+    "roadWorthy": true,
+    "lastInspectionMonth": 3,
+    "lastInspectionYear": 2021,
+    "tooNewForInspections": false,
+    "price": 36890,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "24452_910984",
+    "showRegisterNumber": false,
+    "totalOwners": null,
+    "description": "Bluetooth, Navigointi (iso näyttö)",
+    "showPostingDate": true,
+    "kilometers": 61000,
+    "engineSize": null,
+    "seats": 5,
+    "doors": 4,
+    "steeringWheelLeft": true,
+    "power": null,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": null,
+    "co2Emission": null,
+    "topSpeed": 225,
+    "acceleration": 0,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": 1700,
+    "grossWeight": 2014,
+    "towWeightWithBrakes": 1000,
+    "towWeightWithoutBrakes": 750,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot",
+    "showPriceHistory": true,
+    "deliveryCost": 95,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147382507,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/c08fdee581782a2f-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/c08fdee581782a2f-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/c08fdee581782a2f-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/c08fdee581782a2f-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "id": 147382505,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/11614d08fb9c1e0f-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/11614d08fb9c1e0f-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/11614d08fb9c1e0f-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/11614d08fb9c1e0f-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "id": 147382506,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5ca8ecea0724f70d-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5ca8ecea0724f70d-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5ca8ecea0724f70d-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5ca8ecea0724f70d-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "id": 147382508,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/c072e6350cb3b611-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/c072e6350cb3b611-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/c072e6350cb3b611-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/c072e6350cb3b611-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "id": 147382510,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5bdbf437f083bff6-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5bdbf437f083bff6-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5bdbf437f083bff6-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5bdbf437f083bff6-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "id": 147382509,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5bb05ecf843a3acf-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5bb05ecf843a3acf-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5bb05ecf843a3acf-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/5bb05ecf843a3acf-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "id": 147382513,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/f505469359aa6fd2-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/f505469359aa6fd2-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/f505469359aa6fd2-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/f505469359aa6fd2-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "id": 147382512,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/afe87b4bd538b53b-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/afe87b4bd538b53b-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/afe87b4bd538b53b-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/afe87b4bd538b53b-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      },
+      {
+        "id": 147382511,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/ab8a3f5dd8d18bb5-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/ab8a3f5dd8d18bb5-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/ab8a3f5dd8d18bb5-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/20/ab8a3f5dd8d18bb5-large.jpg",
+          "width": 1024,
+          "height": 768
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "380 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  },
+  {
+    "status": "forsale",
+    "id": "13881937",
+    "adUrl": "https://www.nettiauto.com/volvo/xc40/13881937",
+    "userId": 4904,
+    "uuid": "c61e8ad0-8cdd-4b2c-a978-bd7bb9f73589",
+    "userName": "Autosalpa Hyvinkää",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T05:54:32Z",
+    "dateUpdated": "2023-09-30T09:50:37Z",
+    "lastModified": "2023-09-30T05:54:32Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 85,
+      "name": "Volvo",
+      "mostPopular": true
+    },
+    "model": {
+      "id": 4638,
+      "name": "XC40"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 5,
+      "fi": "Maastoauto SUV",
+      "en": "All-terrain SUV"
+    },
+    "color": {
+      "id": 1,
+      "fi": "Muu",
+      "en": "Other"
+    },
+    "colorType": {
+      "id": 2,
+      "fi": "Normaali väri",
+      "en": "Nonmetallic"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 3,
+      "fi": "Neliveto",
+      "en": "Four wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 13,
+      "fi": "Uusimaa",
+      "en": "Uusimaa"
+    },
+    "town": {
+      "id": 268,
+      "fi": "Hyvinkää",
+      "en": "Hyvinkää"
+    },
+    "accessories": [
+      {
+        "id": 1002,
+        "fi": "Keskuslukitus: Kaukosäätöinen",
+        "en": "Central locking: Remote control"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 11,
+        "fi": "Nahkaverhoilu",
+        "en": "Leather upholstery"
+      },
+      {
+        "id": 13,
+        "fi": "Turvatyynyt",
+        "en": "Airbag"
+      },
+      {
+        "id": 1014,
+        "fi": "USB",
+        "en": "USB"
+      },
+      {
+        "id": 1016,
+        "fi": "Bluetooth",
+        "en": "Bluetooth"
+      },
+      {
+        "id": 25,
+        "fi": "Penkinlämmittimet",
+        "en": "Seat heaters"
+      },
+      {
+        "id": 26,
+        "fi": "Pysäköintitutka",
+        "en": "Parking sensors"
+      },
+      {
+        "id": 29,
+        "fi": "Ajonvakautusjärjestelmä",
+        "en": "Driving assistant"
+      },
+      {
+        "id": 31,
+        "fi": "Sumuvalot",
+        "en": "Fog lights"
+      },
+      {
+        "id": 35,
+        "fi": "Sadetunnistin",
+        "en": "Rain Sensor"
+      },
+      {
+        "id": 43,
+        "fi": "Mäkilähtöavustin",
+        "en": "Auto hold"
+      },
+      {
+        "id": 49,
+        "fi": "LED-ajovalot",
+        "en": "LED-headlights"
+      },
+      {
+        "id": 1018,
+        "fi": "Peruutuskamera: Kamera takana",
+        "en": "Parking camera: Simple camera"
+      }
+    ],
+    "tags": [
+      {
+        "id": 3,
+        "fi": "Maasturit",
+        "en": "Used SUVs and off-road vehicles",
+        "descriptionFi": "Etsitkö citymaasturia asfalttiviidakkoon vai maastoautoa metsäteille? Katumaastureita ja muita erityyppisiä maastoautoja yhdistävät suuret renkaat, korkea maavara ja mahdollisuus ajaa myös tien ulkopuolella.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 35,
+        "fi": "Nelivedot",
+        "en": "Used 4WDs and four-wheel drives",
+        "descriptionFi": "Nelivetoautossa kaikki neljä pyörää ovat vetäviä pyöriä. Neliveto helpottaa ajoa liukkaalla alustalla ja vaativissa olosuhteissa.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "warranties": null,
+    "year": 2021,
+    "modelTypeName": "P8 AWD Business R-Design aut  TAKUU 24KK/40TKM",
+    "vin": null,
+    "firstRegistrationMonth": null,
+    "firstRegistrationYear": null,
+    "roadWorthy": true,
+    "lastInspectionMonth": null,
+    "lastInspectionYear": null,
+    "tooNewForInspections": false,
+    "price": 52900,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "LPL-822",
+    "showRegisterNumber": true,
+    "totalOwners": null,
+    "description": "\r\n \r\n• Huoltokirja\r\n• 2 Renkaat\r\n• Varustepaketti Light MY21 Inscription & R-Design (XC40) LED High Level ajovalot\r\n• Pysäköintikamera taakse (790)\r\n• Pysäköintitutka taakse ja eteen (691)\r\n• Pysäköintiapu visuaalinen 360 + kamerat (139)\r\n• Verhoilu: Nupukkikangas/nappanahka\r\n• Charcoal (RB00)\r\n• Etuistuimien reisituen säätö (1046)\r\n• Etuistuimien sähköinen ristiseläntuen säätö 4-suuntaan (212)\r\n• Etuniskatukien korkeussäätö\r\n• Kuljettajan istuimen kallistuksen ja korkeuden säätö\r\n• Lämmitettävä takaistuin\r\n• reunapaikat (752)\r\n• Lämmitettävät etuistuimet\r\n• Takaistuimen selkänojat alastaitettavat 40/60\r\n• Clean Zone (AQS ja matkustamon esituuletus)\r\n• Lämpöpumppu\r\n• Automaattinen ilmastointi ECC\r\n• Google Assistant ei tue suomen kieltä\r\n• Google Automotive Services sis. hintaan neljäksi vuodeksi\r\n• Sensuksen kauko-ohjaus ohjauspyörässä\r\n• Digital Audio Broadcasting (DAB)\r\n• Bluetooth-järjestelmä\r\n• USB Type C -liitäntä takaistuimella 2 kpl\r\n• Volvo On Call\r\n• Ajovalonpesurit\r\n• Etusumuvalot LED (16)\r\n• Hätäjarrutusvalot\r\n• LED automaattiset kaukovalot (päälle/pois)\r\n• LED-ajovalot\r\n• sekä \\\"thors hammer\\\" LED-päiväajovalot\r\n• Saattovalot\r\n• 720 Bursting blue metalli\r\n• Aktiivinen kaistallapitoavustin\r\n• Nopeudenrajoitin\r\n• Etumatkust.turvatyynyn poiskytkentä\r\n• Kuljettajan ja etumatkustajan turvatyynyt\r\n• Kuljettajan polviturvatyyny\r\n• Automaattisesti himmenevät ulkopeilit ja taustapeili (169)\r\n• Sähkötoimiset ja -lämmitteiset ulkopeilit\r\n• Valaistut meikkipeilit\r\n• Alamäkihidastin (HDC)\r\n• Mäkilähtöavustin\r\n• Ulkolämpötilanmittari\r\n• Sadetunnistin\r\n• Sävylasit (25%)\r\n• Tummennetut takalasit (179)\r\n• Ajovakaudenhallintajärjestelmä ESC\r\n• Avaimeton ajojärjestelmä (896)\r\n• Kauko-ohjattu keskuslukitus",
+    "showPostingDate": true,
+    "kilometers": 30000,
+    "engineSize": null,
+    "seats": 5,
+    "doors": null,
+    "steeringWheelLeft": true,
+    "power": 300,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": null,
+    "co2Emission": null,
+    "topSpeed": null,
+    "acceleration": 0,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": null,
+    "grossWeight": null,
+    "towWeightWithBrakes": null,
+    "towWeightWithoutBrakes": null,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot&rekkari=LPL-822&kuva=https://images.nettiauto.com/live/2023/08/23/cb0deb33f228e50c-large.jpg&ajoneuvolaji=1",
+    "showPriceHistory": true,
+    "deliveryCost": 150,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147383893,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/08/23/cb0deb33f228e50c-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/08/23/cb0deb33f228e50c-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/08/23/cb0deb33f228e50c-medium.jpg",
+          "width": 640,
+          "height": 480
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/08/23/cb0deb33f228e50c-large.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "40 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  },
+  {
+    "status": "forsale",
+    "id": "13882070",
+    "adUrl": "https://www.nettiauto.com/skoda/enyaq/13882070",
+    "userId": 1410060,
+    "uuid": "45f634a0-3722-4628-911f-e8d677150a40",
+    "userName": "Saka Finland Oy Oulu",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T07:38:47Z",
+    "dateUpdated": "2023-09-30T08:38:48Z",
+    "lastModified": "2023-09-30T07:38:47Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 72,
+      "name": "Skoda",
+      "mostPopular": true
+    },
+    "model": {
+      "id": 4883,
+      "name": "Enyaq"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 5,
+      "fi": "Maastoauto SUV",
+      "en": "All-terrain SUV"
+    },
+    "color": {
+      "id": 5,
+      "fi": "Musta",
+      "en": "Black"
+    },
+    "colorType": {
+      "id": 3,
+      "fi": "Ei saatavilla",
+      "en": "Not available"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 2,
+      "fi": "Takaveto",
+      "en": "Rear wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 9,
+      "fi": "Pohjois-Pohjanmaa",
+      "en": "Pohjois-Pohjanmaa"
+    },
+    "town": {
+      "id": 159,
+      "fi": "Oulu",
+      "en": "Oulu"
+    },
+    "accessories": null,
+    "tags": [
+      {
+        "id": 3,
+        "fi": "Maasturit",
+        "en": "Used SUVs and off-road vehicles",
+        "descriptionFi": "Etsitkö citymaasturia asfalttiviidakkoon vai maastoautoa metsäteille? Katumaastureita ja muita erityyppisiä maastoautoja yhdistävät suuret renkaat, korkea maavara ja mahdollisuus ajaa myös tien ulkopuolella.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "warranties": null,
+    "year": 2021,
+    "modelTypeName": "60 Launch Edition iV ** 1-om Suomiauto / Vetokoukku / Nahkasisusta /",
+    "vin": "TMBJB7NY1MF023277",
+    "firstRegistrationMonth": 7,
+    "firstRegistrationYear": 2021,
+    "roadWorthy": true,
+    "lastInspectionMonth": null,
+    "lastInspectionYear": null,
+    "tooNewForInspections": false,
+    "price": 38800,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "CPF-225",
+    "showRegisterNumber": true,
+    "totalOwners": null,
+    "description": "Katso lisää kuvia ja tarkempi ilmoitus:\nhttps://saka.fi/vaihtoautot/267791\n#ostetaanautoja - https://www.saka.fi/ostetaan-autoja\n** Katso myös muut automme kattavasta satojen autojen valikoimasta osoitteesta www.saka.fi **\n** Pyydämme huomioimaan, että auton tekniset tiedot (kulutus, latausaika, toimintasäde) saattavat poiketa oleellisesti valmistajan ilmoittamista arvoista. Sähkö- ja hybridiautoissa talviolosuhteissa sähkömoottorin käyttö voi olla rajoitettu. **\n20' Vega-kevytmetallivanteet\nClimate Plus -paketti: -lämmitettävät takasivuistuimet -lämmitettävä tuulilasi\necoSuite -designvalinta\nFamily Plus -paketti: -mukavuuspääntuet takasivuistuimille ja yksi torkkupeitto -taitettavat pöydät etuistuimen selkänojien taustoissa\nInfotainment Online, 3 vuotta\nVetokoukku, sähköisesti esiin taitettava",
+    "showPostingDate": true,
+    "kilometers": 67000,
+    "engineSize": null,
+    "seats": 5,
+    "doors": 5,
+    "steeringWheelLeft": true,
+    "power": 5,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": null,
+    "co2Emission": null,
+    "topSpeed": 160,
+    "acceleration": 8.7,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": 1965,
+    "grossWeight": null,
+    "towWeightWithBrakes": 1000,
+    "towWeightWithoutBrakes": 750,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot&rekkari=CPF-225&kuva=https://images.nettiauto.com/live/2022/10/19/e77ab44f51c43f80-large.jpg&ajoneuvolaji=1",
+    "showPriceHistory": true,
+    "deliveryCost": null,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147393077,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2022/10/19/e77ab44f51c43f80-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2022/10/19/e77ab44f51c43f80-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2022/10/19/e77ab44f51c43f80-medium.jpg",
+          "width": 640,
+          "height": 428
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2022/10/19/e77ab44f51c43f80-large.jpg",
+          "width": 1616,
+          "height": 1080
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "500 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  },
+  {
+    "status": "forsale",
+    "id": "13882410",
+    "adUrl": "https://www.nettiauto.com/peugeot/e-2008/13882410",
+    "userId": 744050,
+    "uuid": "6b9baf24-e02e-4934-90dd-59611cffb4df",
+    "userName": "Wetteri Kemi",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T10:18:25Z",
+    "dateUpdated": "2023-09-30T10:37:17Z",
+    "lastModified": "2023-09-30T10:18:25Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 58,
+      "name": "Peugeot",
+      "mostPopular": false
+    },
+    "model": {
+      "id": 4834,
+      "name": "e-2008"
+    },
+    "modelType": {
+      "id": 499578,
+      "name": "50 kWh 136 Automaatti Allure Pack"
+    },
+    "bodyType": {
+      "id": 5,
+      "fi": "Maastoauto SUV",
+      "en": "All-terrain SUV"
+    },
+    "color": {
+      "id": 9,
+      "fi": "Harmaa",
+      "en": "Gray"
+    },
+    "colorType": {
+      "id": 3,
+      "fi": "Ei saatavilla",
+      "en": "Not available"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 1,
+      "fi": "Etuveto",
+      "en": "Front wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 6,
+      "fi": "Lappi",
+      "en": "Lappi"
+    },
+    "town": {
+      "id": 86,
+      "fi": "Kemi",
+      "en": "Kemi"
+    },
+    "accessories": [
+      {
+        "id": 6,
+        "fi": "Kahdet renkaat",
+        "en": "Two sets of tyres"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 11,
+        "fi": "Nahkaverhoilu",
+        "en": "Leather upholstery"
+      },
+      {
+        "id": 1005,
+        "fi": "Vakionopeudensäädin: Perinteinen",
+        "en": "Cruise control: Traditional"
+      },
+      {
+        "id": 29,
+        "fi": "Ajonvakautusjärjestelmä",
+        "en": "Driving assistant"
+      },
+      {
+        "id": 43,
+        "fi": "Mäkilähtöavustin",
+        "en": "Auto hold"
+      },
+      {
+        "id": 58,
+        "fi": "Kaistavahti",
+        "en": "Lane departure warning system"
+      }
+    ],
+    "tags": [
+      {
+        "id": 3,
+        "fi": "Maasturit",
+        "en": "Used SUVs and off-road vehicles",
+        "descriptionFi": "Etsitkö citymaasturia asfalttiviidakkoon vai maastoautoa metsäteille? Katumaastureita ja muita erityyppisiä maastoautoja yhdistävät suuret renkaat, korkea maavara ja mahdollisuus ajaa myös tien ulkopuolella.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "warranties": null,
+    "year": 2021,
+    "modelTypeName": null,
+    "vin": null,
+    "firstRegistrationMonth": 10,
+    "firstRegistrationYear": 2021,
+    "roadWorthy": true,
+    "lastInspectionMonth": 10,
+    "lastInspectionYear": 2021,
+    "tooNewForInspections": false,
+    "price": 25700,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "XPR-185",
+    "showRegisterNumber": false,
+    "totalOwners": null,
+    "description": "1 omistaja\n\nIstuimien kangas-/keinonahkaverhoilu Cosy\nAutomaattinen ilmastointi\nElektroninen ajonvakautusjärjestelmä (ESC)\nKaistavahti ja -avustin\nMäkilähtöavustin\nKahdet renkaat\nVakionopeudensäädin ja nopeudenrajoitin",
+    "showPostingDate": true,
+    "kilometers": 37000,
+    "engineSize": null,
+    "seats": null,
+    "doors": 5,
+    "steeringWheelLeft": true,
+    "power": 100,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": null,
+    "co2Emission": null,
+    "topSpeed": 150,
+    "acceleration": 9,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": 1623,
+    "grossWeight": 2030,
+    "towWeightWithBrakes": null,
+    "towWeightWithoutBrakes": null,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot",
+    "showPriceHistory": true,
+    "deliveryCost": null,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147405329,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/02/21/1acb19a2cfac593c-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/02/21/1acb19a2cfac593c-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/02/21/1acb19a2cfac593c-medium.jpg",
+          "width": 640,
+          "height": 439
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/02/21/1acb19a2cfac593c-large.jpg",
+          "width": 1574,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405327,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/01/ee3140ce60044df8-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/01/ee3140ce60044df8-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/01/ee3140ce60044df8-medium.jpg",
+          "width": 640,
+          "height": 451
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/01/ee3140ce60044df8-large.jpg",
+          "width": 710,
+          "height": 500
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "580 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  },
+  {
+    "status": "forsale",
+    "id": "13882421",
+    "adUrl": "https://www.nettiauto.com/kia/niro/13882421",
+    "userId": 809234,
+    "uuid": "660875eb-ded5-4edc-abcc-cd41a6ba17d1",
+    "userName": "Wetteri Ylivieska",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T10:20:03Z",
+    "dateUpdated": "2023-09-30T10:37:45Z",
+    "lastModified": "2023-09-30T10:20:03Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 230,
+      "name": "Kia",
+      "mostPopular": false
+    },
+    "model": {
+      "id": 4519,
+      "name": "Niro"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 4,
+      "fi": "Farmari",
+      "en": "Station Wagon"
+    },
+    "color": {
+      "id": 2,
+      "fi": "Sininen",
+      "en": "Blue"
+    },
+    "colorType": {
+      "id": 1,
+      "fi": "Metalliväri",
+      "en": "Metallic"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 1,
+      "fi": "Etuveto",
+      "en": "Front wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 9,
+      "fi": "Pohjois-Pohjanmaa",
+      "en": "Pohjois-Pohjanmaa"
+    },
+    "town": {
+      "id": 179,
+      "fi": "Ylivieska",
+      "en": "Ylivieska"
+    },
+    "accessories": [
+      {
+        "id": 4,
+        "fi": "Vetokoukku",
+        "en": "Tow bar"
+      },
+      {
+        "id": 5,
+        "fi": "Kevytmetallivanteet",
+        "en": "Alloy wheels"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 11,
+        "fi": "Nahkaverhoilu",
+        "en": "Leather upholstery"
+      },
+      {
+        "id": 1022,
+        "fi": "Huoltokirja: Paperinen",
+        "en": "Service manual: Paper"
+      },
+      {
+        "id": 1006,
+        "fi": "Vakionopeudensäädin: Mukautuva",
+        "en": "Cruise control: Adaptive"
+      },
+      {
+        "id": 23,
+        "fi": "Ajotietokone",
+        "en": "On board computer"
+      },
+      {
+        "id": 25,
+        "fi": "Penkinlämmittimet",
+        "en": "Seat heaters"
+      },
+      {
+        "id": 27,
+        "fi": "Sähköpeilit",
+        "en": "Electric mirrors"
+      },
+      {
+        "id": 28,
+        "fi": "Navigointijärjestelmä",
+        "en": "Satellite navigator"
+      },
+      {
+        "id": 29,
+        "fi": "Ajonvakautusjärjestelmä",
+        "en": "Driving assistant"
+      },
+      {
+        "id": 38,
+        "fi": "Matkapuhelinvarustus",
+        "en": "Hands-free kit"
+      },
+      {
+        "id": 40,
+        "fi": "Lasikatto",
+        "en": "Sunroof"
+      },
+      {
+        "id": 41,
+        "fi": "Isofix-valmius",
+        "en": "Isofix-ready"
+      },
+      {
+        "id": 43,
+        "fi": "Mäkilähtöavustin",
+        "en": "Auto hold"
+      },
+      {
+        "id": 44,
+        "fi": "Avaimeton käynnistys",
+        "en": "Keyless start"
+      },
+      {
+        "id": 1018,
+        "fi": "Peruutuskamera: Kamera takana",
+        "en": "Parking camera: Simple camera"
+      }
+    ],
+    "tags": [
+      {
+        "id": 26,
+        "fi": "Farmarit",
+        "en": "Used station wagons",
+        "descriptionFi": "Farmariauto on näppärä kuljetusväline. Jos auton korimalli on farmari, sen katto jatkuu perään asti ja tavaratilaa on usein paljon. Katso myös <a href=\"https://www.nettiauto.com/pikalinkit/tila-autot\">tila-autot</a>.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "warranties": null,
+    "year": 2021,
+    "modelTypeName": "ELECTRIC ELECTRIC 64 kWh 204 hv Business Luxury - ** Suomi-Auto / Ilmalämpöpumppu /  ACC / Panoraama / Koukku / Navi / K",
+    "vin": null,
+    "firstRegistrationMonth": 12,
+    "firstRegistrationYear": 2021,
+    "roadWorthy": true,
+    "lastInspectionMonth": null,
+    "lastInspectionYear": null,
+    "tooNewForInspections": false,
+    "price": 35900,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "JMF-721",
+    "showRegisterNumber": false,
+    "totalOwners": null,
+    "description": "Merkkiliikkeen huoltokirja\n\nMetalliväri: Gravity Blue\nAutomaattinen ilmastointi (sis. huurteenpoistojärjestelmän)\nPanorama-kattoikkuna\nKattoluukku aurinkosuojaverholla\nIlmalämpöpumppu\nIlmastoinnin suuttimet takamatkustajille\nKorkeajänniteakun lämmitysjärjestelmä\nLämmitettävä ohjauspyörä\nSisäpuhaltimen sähkötoiminen lisälämmitin\nVetokoukku\nKahdet-renkaat\nErikoisvanteet kesä- ja talvirenkaissa\nAdaptiivinen mukautuva vakionopeudensäädin\nAutomaattivaihteisto\nESC-ajonvakautusjärjestelmä\nMäkilähtöavustin\nAjotietokone\nBluetooth\nNavigointijärjestelmä, Euroopan ja Venäjän kartat (suomenkielinen)\nNavigointijärjestelmän 7 vuoden ilmaiset karttapäivitykset\nPeruutuskamera\nEtuistuimien ilmastointi\nEtuistuimien lämmitys\nEtumatkustajan istuimen mekaaninen korkeudensäätö\nIsofix-kiinnikkeet takaistuimella (2 kpl)\nIstuimiet nahkaverhoilu\nKuljettajat istuin 2 muistipaikkaa\nKuljettajan istuin sähkösäätöinen\nLämmitetyt takaistuimet reunapaikoilla\nTakaistuin 60:40 suhteessa taittuva selkänoja\nTummennetut takaikkunat\nSähköisesti koria vasten taitettavat sivupeilit\nAvaimeton käynnistys ja kulku\nSmart Key-avaimeton järjestelmä\nLämmitettävä ohjauspyörä",
+    "showPostingDate": true,
+    "kilometers": 72000,
+    "engineSize": null,
+    "seats": 5,
+    "doors": 5,
+    "steeringWheelLeft": true,
+    "power": 5,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": null,
+    "co2Emission": null,
+    "topSpeed": 167,
+    "acceleration": 0,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": 1812,
+    "grossWeight": 2230,
+    "towWeightWithBrakes": 300,
+    "towWeightWithoutBrakes": 300,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot",
+    "showPriceHistory": true,
+    "deliveryCost": null,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147405485,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/dad414478ecf76a2-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/dad414478ecf76a2-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/dad414478ecf76a2-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/dad414478ecf76a2-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405483,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/01/ee3140ce60044df8-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/01/ee3140ce60044df8-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/01/ee3140ce60044df8-medium.jpg",
+          "width": 640,
+          "height": 451
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/01/ee3140ce60044df8-large.jpg",
+          "width": 710,
+          "height": 500
+        }
+      },
+      {
+        "id": 147405486,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a15fc9f2044dd107-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a15fc9f2044dd107-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a15fc9f2044dd107-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a15fc9f2044dd107-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405489,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8739aa3bae7f0fe3-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8739aa3bae7f0fe3-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8739aa3bae7f0fe3-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8739aa3bae7f0fe3-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405491,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/3bfa9258b5efc2a8-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/3bfa9258b5efc2a8-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/3bfa9258b5efc2a8-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/3bfa9258b5efc2a8-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405490,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/11c64bff30427fa8-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/11c64bff30427fa8-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/11c64bff30427fa8-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/11c64bff30427fa8-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405495,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/132ef39f78f181f0-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/132ef39f78f181f0-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/132ef39f78f181f0-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/132ef39f78f181f0-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405497,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f61f9a87917d1427-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f61f9a87917d1427-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f61f9a87917d1427-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f61f9a87917d1427-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405496,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/2e5221ef2cc99786-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/2e5221ef2cc99786-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/2e5221ef2cc99786-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/2e5221ef2cc99786-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405505,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/795116294fc77edd-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/795116294fc77edd-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/795116294fc77edd-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/795116294fc77edd-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405502,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/250b500a644d41ea-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/250b500a644d41ea-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/250b500a644d41ea-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/250b500a644d41ea-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405504,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/99753c0a0e316ecd-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/99753c0a0e316ecd-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/99753c0a0e316ecd-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/99753c0a0e316ecd-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405508,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/88fee081facf367b-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/88fee081facf367b-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/88fee081facf367b-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/88fee081facf367b-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405509,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/fec0884437be434b-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/fec0884437be434b-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/fec0884437be434b-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/fec0884437be434b-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405510,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/b3f2f437cfa29fb9-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/b3f2f437cfa29fb9-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/b3f2f437cfa29fb9-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/b3f2f437cfa29fb9-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405517,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/c46fcf40da037bc5-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/c46fcf40da037bc5-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/c46fcf40da037bc5-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/c46fcf40da037bc5-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405519,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f3fc2880f047d662-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f3fc2880f047d662-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f3fc2880f047d662-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f3fc2880f047d662-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405518,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f2daca223a2e4228-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f2daca223a2e4228-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f2daca223a2e4228-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/f2daca223a2e4228-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405524,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/bf6c4020f353fd2e-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/bf6c4020f353fd2e-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/bf6c4020f353fd2e-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/bf6c4020f353fd2e-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405523,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a5b6b914afc8351d-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a5b6b914afc8351d-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a5b6b914afc8351d-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a5b6b914afc8351d-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405522,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/13f40e3dfcc15129-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/13f40e3dfcc15129-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/13f40e3dfcc15129-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/13f40e3dfcc15129-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405528,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8ee8d8bad3336979-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8ee8d8bad3336979-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8ee8d8bad3336979-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8ee8d8bad3336979-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405530,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/bdcb40015dfafc6b-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/bdcb40015dfafc6b-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/bdcb40015dfafc6b-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/bdcb40015dfafc6b-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405529,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/491dad6cd6c0b7fd-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/491dad6cd6c0b7fd-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/491dad6cd6c0b7fd-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/491dad6cd6c0b7fd-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405538,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a612a8c982b977b2-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a612a8c982b977b2-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a612a8c982b977b2-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/a612a8c982b977b2-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405535,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/733aadfe2db4e8a2-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/733aadfe2db4e8a2-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/733aadfe2db4e8a2-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/733aadfe2db4e8a2-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405537,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0bfa684dcf727b05-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0bfa684dcf727b05-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0bfa684dcf727b05-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0bfa684dcf727b05-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405541,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/4132b1d0230a729c-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/4132b1d0230a729c-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/4132b1d0230a729c-medium.jpg",
+          "width": 389,
+          "height": 519
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/4132b1d0230a729c-large.jpg",
+          "width": 810,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405543,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8ee7d156c8dbec72-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8ee7d156c8dbec72-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8ee7d156c8dbec72-medium.jpg",
+          "width": 389,
+          "height": 519
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8ee7d156c8dbec72-large.jpg",
+          "width": 810,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147405542,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d1df7f5263164186-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d1df7f5263164186-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d1df7f5263164186-medium.jpg",
+          "width": 389,
+          "height": 519
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d1df7f5263164186-large.jpg",
+          "width": 810,
+          "height": 1080
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h",
+      "priceDroppedInstruction"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "400 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  },
+  {
+    "status": "forsale",
+    "id": "13882538",
+    "adUrl": "https://www.nettiauto.com/volkswagen/id3/13882538",
+    "userId": 2041753,
+    "uuid": "3f5c040f-92df-4165-8d03-11ca67ae6978",
+    "userName": "LänsiAuto Tampere",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T10:36:53Z",
+    "dateUpdated": "2023-09-30T10:38:16Z",
+    "lastModified": "2023-09-30T10:36:53Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 84,
+      "name": "Volkswagen",
+      "mostPopular": true
+    },
+    "model": {
+      "id": 4838,
+      "name": "ID3"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 3,
+      "fi": "Viistoperä",
+      "en": "Hatchback"
+    },
+    "color": {
+      "id": 1,
+      "fi": "Muu",
+      "en": "Other"
+    },
+    "colorType": {
+      "id": 3,
+      "fi": "Ei saatavilla",
+      "en": "Not available"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 2,
+      "fi": "Takaveto",
+      "en": "Rear wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 21,
+      "fi": "Pirkanmaa",
+      "en": "Pirkanmaa"
+    },
+    "town": {
+      "id": 388,
+      "fi": "Tampere",
+      "en": "Tampere"
+    },
+    "accessories": [
+      {
+        "id": 1001,
+        "fi": "Keskuslukitus: Avaimeton",
+        "en": "Central locking: Keyless"
+      },
+      {
+        "id": 3,
+        "fi": "Sähkökäyttöiset ikkunat",
+        "en": "Power windows"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 12,
+        "fi": "Lukkiutumattomat jarrut (ABS)",
+        "en": "ABS brakes"
+      },
+      {
+        "id": 13,
+        "fi": "Turvatyynyt",
+        "en": "Airbag"
+      },
+      {
+        "id": 19,
+        "fi": "Luistonestojärjestelmä",
+        "en": "Traction control"
+      },
+      {
+        "id": 1006,
+        "fi": "Vakionopeudensäädin: Mukautuva",
+        "en": "Cruise control: Adaptive"
+      },
+      {
+        "id": 23,
+        "fi": "Ajotietokone",
+        "en": "On board computer"
+      },
+      {
+        "id": 25,
+        "fi": "Penkinlämmittimet",
+        "en": "Seat heaters"
+      },
+      {
+        "id": 26,
+        "fi": "Pysäköintitutka",
+        "en": "Parking sensors"
+      },
+      {
+        "id": 27,
+        "fi": "Sähköpeilit",
+        "en": "Electric mirrors"
+      },
+      {
+        "id": 28,
+        "fi": "Navigointijärjestelmä",
+        "en": "Satellite navigator"
+      },
+      {
+        "id": 35,
+        "fi": "Sadetunnistin",
+        "en": "Rain Sensor"
+      },
+      {
+        "id": 36,
+        "fi": "Monitoimiohjauspyörä",
+        "en": "Multiactive Steering Wheel"
+      },
+      {
+        "id": 38,
+        "fi": "Matkapuhelinvarustus",
+        "en": "Hands-free kit"
+      },
+      {
+        "id": 41,
+        "fi": "Isofix-valmius",
+        "en": "Isofix-ready"
+      },
+      {
+        "id": 42,
+        "fi": "Kaarrevalot",
+        "en": "Curve lights"
+      },
+      {
+        "id": 49,
+        "fi": "LED-ajovalot",
+        "en": "LED-headlights"
+      },
+      {
+        "id": 1018,
+        "fi": "Peruutuskamera: Kamera takana",
+        "en": "Parking camera: Simple camera"
+      },
+      {
+        "id": 59,
+        "fi": "Head-Up-näyttö",
+        "en": "Head-Up display"
+      }
+    ],
+    "tags": [
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "warranties": null,
+    "year": 2021,
+    "modelTypeName": "Pro S Business Max 150 kW, akku 77 kWh / HUD / Kessy / Kamera / 2 x alut / **** LänsiAuto Safe -sopimus hintaan 590e ***",
+    "vin": null,
+    "firstRegistrationMonth": null,
+    "firstRegistrationYear": null,
+    "roadWorthy": true,
+    "lastInspectionMonth": null,
+    "lastInspectionYear": null,
+    "tooNewForInspections": false,
+    "price": 38690,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "TAM-063620",
+    "showRegisterNumber": true,
+    "totalOwners": null,
+    "description": "Katso kaikki kuvat: https://www.lansiauto.fi/autohaku/918250\n\nTämä auto löytyy Tampereen pisteestämme osoitteesta Taninkatu 3, 33400 Tampere.\n***\nMeidät saa kiinni soittamalla 010 5047970 tai laittamalla viestiä Whatsapilla 046 9229163. Tervetuloa kaupoille.\n****\nTähän autoon Länsiauto-kasko vuodeksi alk. 499€\n*****\nLämpöpumppu\nDigimittaristo\nAdaptiivinen vakionopeudensäädin\nHUD (Head Up Display)\nKuolleenkulman varoitin\nKaistanpitoavustin\nLiikennemerkkitunnistus\nVireystila-avustin\nFront Assist (ympäristön tarkkailu -järjestelmä)\nNavigointijärjestelmä\nAvaimeton kulku ja käynnistys\nPeruutuskamera\nPysäköintitutka edessä ja takana\nSmartLink: AndroidAuto / AppleCarPlay / MirrorLink\nBluetooth handsfree & mediantoisto\nRadio\nElectric parking brake (sähkötoiminen seisontajarru)\nLED-päiväajovalot\nLED-ajovalot\nAktiiviset kaarrevalot\nAktiiviset kaukovalot\nNahkaverhoiltu monitoimiohjauspyörä\nMusta kattoverhoilu\nSähkösäätöiset ergoActive-etuistuimet\nAutomaatti-ilmastointi\nAjotietokone\nSadetunnistin\nAutomaattisesti himmenevä taustapeili\nTummennetut takasivulasit ja takalasi\nSähkökäyttöiset ikkunat\nSähköisesti säädettävät, lämmitettävät ja koria vasten taittuvat sivupeilit\nPenkinlämmittimet\nOhjauspyörän lämmitys\nTurvatyynyt\nIsofix-valmius\nLuistonestojärjestelmä\nLukkiutumattomat jarrut (ABS)\nKeskuslukitus: Avaimeton\n2 x Avain\nAluvanteet kesä- ja talvirenkaissa\nTarkista tietojen oikeellisuus myyjältä\nMeiltä rahoitukset jopa ilman käsirahaa! Räätälöimme rahoituksen juuri sinun tarpeisiin!\n*******\nTarvittaessa toimitamme auton veloituksetta lähimpään Länsiauton toimipisteeseen.  Toimitamme auton myös kotiin; kysy myyjältä lisää.\n*********\nKatso myös muut automme laadukkaasta valikoimasta osoitteesta: www.lansiauto.fi\n**********\nTämä auto on sähköauto. Myynti-ilmoituksen tekniset tiedot, kuten kulutus- ja käyttösädetiedot ovat valmistajan ilmoittamia ja mitattu uudesta vastaavasta autosta. Pyydämme huomioimaan ostopäätöksessä\nettä auton todellinen latausaika, sähkön kulutus ja/ tai sähkökäyttöisen ajon toimintasäde saattavat erota huomattavasti valmistajan ilmoittamista arvoista. Talviolosuhteissa auton sähkömoottorin käyttö voi olla rajoitettua.\nTuonti-auto (Ruotsi - hinta sisältää rekisteröinnin, autoveron sekä maahantulokatsastuksen. Autovero ei sisällä vähennyskelpoista arvonlisäveroa.)\nSähköauton plug-in latauspistoke & latauskaapeli",
+    "showPostingDate": true,
+    "kilometers": 28000,
+    "engineSize": null,
+    "seats": 4,
+    "doors": 4,
+    "steeringWheelLeft": true,
+    "power": 4,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": null,
+    "co2Emission": null,
+    "topSpeed": 160,
+    "acceleration": 7.9,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": 1935,
+    "grossWeight": 2280,
+    "towWeightWithBrakes": null,
+    "towWeightWithoutBrakes": null,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot&rekkari=TAM-063620&kuva=https://images.nettiauto.com/live/2022/03/07/2fc40ae54c3c4dae-large.jpg&ajoneuvolaji=1",
+    "showPriceHistory": true,
+    "deliveryCost": null,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147407497,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/2fc40ae54c3c4dae-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/2fc40ae54c3c4dae-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/2fc40ae54c3c4dae-medium.jpg",
+          "width": 544,
+          "height": 401
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/2fc40ae54c3c4dae-large.jpg",
+          "width": 596,
+          "height": 439
+        }
+      },
+      {
+        "id": 147407501,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/01/26/03f3b1c82eeb15b1-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/01/26/03f3b1c82eeb15b1-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/01/26/03f3b1c82eeb15b1-medium.jpg",
+          "width": 640,
+          "height": 427
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/01/26/03f3b1c82eeb15b1-large.jpg",
+          "width": 1620,
+          "height": 1080
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "150 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  },
+  {
+    "status": "forsale",
+    "id": "13882578",
+    "adUrl": "https://www.nettiauto.com/volkswagen/id4/13882578",
+    "userId": 1181453,
+    "uuid": "078ee39b-e0eb-4581-b93e-28539542a954",
+    "userName": "Kamux Seinäjoki",
+    "postedBy": "dealer",
+    "dateCreated": "2023-09-30T10:56:10Z",
+    "dateUpdated": "2023-09-30T10:56:10Z",
+    "lastModified": "2023-09-30T10:56:10Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 84,
+      "name": "Volkswagen",
+      "mostPopular": true
+    },
+    "model": {
+      "id": 4865,
+      "name": "ID4"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 5,
+      "fi": "Maastoauto SUV",
+      "en": "All-terrain SUV"
+    },
+    "color": {
+      "id": 1,
+      "fi": "Muu",
+      "en": "Other"
+    },
+    "colorType": {
+      "id": 2,
+      "fi": "Normaali väri",
+      "en": "Nonmetallic"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 2,
+      "fi": "Takaveto",
+      "en": "Rear wheel"
+    },
+    "gearType": {
+      "id": 2,
+      "fi": "Manuaali",
+      "en": "Manual"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 17,
+      "fi": "Etelä-Pohjanmaa",
+      "en": "Etelä-Pohjanmaa"
+    },
+    "town": {
+      "id": 350,
+      "fi": "Seinäjoki",
+      "en": "Seinäjoki"
+    },
+    "accessories": [
+      {
+        "id": 1,
+        "fi": "Ohjaustehostin",
+        "en": "Power steering"
+      },
+      {
+        "id": 4,
+        "fi": "Vetokoukku",
+        "en": "Tow bar"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 13,
+        "fi": "Turvatyynyt",
+        "en": "Airbag"
+      },
+      {
+        "id": 1011,
+        "fi": "CD-soitin",
+        "en": "CD Player"
+      },
+      {
+        "id": 1012,
+        "fi": "Radio",
+        "en": "Radio"
+      },
+      {
+        "id": 1006,
+        "fi": "Vakionopeudensäädin: Mukautuva",
+        "en": "Cruise control: Adaptive"
+      },
+      {
+        "id": 23,
+        "fi": "Ajotietokone",
+        "en": "On board computer"
+      },
+      {
+        "id": 26,
+        "fi": "Pysäköintitutka",
+        "en": "Parking sensors"
+      },
+      {
+        "id": 38,
+        "fi": "Matkapuhelinvarustus",
+        "en": "Hands-free kit"
+      },
+      {
+        "id": 41,
+        "fi": "Isofix-valmius",
+        "en": "Isofix-ready"
+      },
+      {
+        "id": 49,
+        "fi": "LED-ajovalot",
+        "en": "LED-headlights"
+      },
+      {
+        "id": 51,
+        "fi": "Pysäköintiavustin",
+        "en": "Parking Assistant"
+      },
+      {
+        "id": 53,
+        "fi": "Hybridiauton plug-in latauspistoke",
+        "en": "Plug-in charging for hybrid vehicles"
+      }
+    ],
+    "tags": [
+      {
+        "id": 3,
+        "fi": "Maasturit",
+        "en": "Used SUVs and off-road vehicles",
+        "descriptionFi": "Etsitkö citymaasturia asfalttiviidakkoon vai maastoautoa metsäteille? Katumaastureita ja muita erityyppisiä maastoautoja yhdistävät suuret renkaat, korkea maavara ja mahdollisuus ajaa myös tien ulkopuolella.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "warranties": null,
+    "year": 2021,
+    "modelTypeName": "ID.4 Pro Performance Life",
+    "vin": "WVGZZZE2ZMP052103",
+    "firstRegistrationMonth": 8,
+    "firstRegistrationYear": 2021,
+    "roadWorthy": true,
+    "lastInspectionMonth": null,
+    "lastInspectionYear": null,
+    "tooNewForInspections": false,
+    "price": 38900,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "FI-0000934",
+    "showRegisterNumber": true,
+    "totalOwners": null,
+    "description": " \n Halutessasi voit ostaa auton Kamuxin yli 5000 auton valikoimasta noudolla lähimpään Kamux-liikkeeseesi tai jopa kotiintoimituksella. \r\nAsiantuntijamme auttavat sinua chatissa, whatsappissa, puhelimessa ja myymälöissämme löytämään juuri sinulle sopivan auton.\r\n\r\nKauttamme lähes autoon kuin autoon on saatavilla erittäin kilpailukykyinen Kamux Kasko-vakuutus, tähän autoon alkaen 499 €/vuosi, sekä kiinteäkorkoinen Kamux Rahoitus jopa 0€ käsirahalla.\r\n\r\nMeiltä saat aina reilun vaihtohyvityksen nykyisestä autostasi! \r\nOstamme myös autoja ilman vaihtoa. Jos sinulla on tarpeettomaksi jäänyt auto voit tarjota sitä meille ostettavaksi.\r\n\r\nTähän autoon saatavilla lisäturvaa Kamux Plus -palvelulla mahdollisien korjauskustannusten varalle. \r\nValitse sinulle ja autollesi sopiva vaihtoehto ja nauti autostasi ja ajamisen ilosta vailla turhia murheita!\r\n\r\nKamux Plus Laaja on voimassa jopa 24kk tai 40 000km. Kysy lisää myyjiltämme!\r\n\r\nAjotietokone\r\nHybridiauton plug-in latauspistoke\r\nIlmastointi, automaattinen\r\nIsofix-valmius\r\nLED-ajovalot\r\nMatkapuhelinvarustus\r\nOhjaustehostin\r\nPysäköintiavustin\r\nPysäköintitutka\r\nRadio\r\nTurvatyynyt\r\nVakionopeudensäädin, adaptiivinen\r\nVetokoukku\r\nÄänentoistojärjestelmä\r\n\r\nKauttamme myös helposti kotimaiset Walle-latauslaitteet, vaikka asennettuna kotiisi. \r\nTutustu lisää www.kamux.fi/auton-latauslaitteet\r\n\r\nLisätietoja Kamux Plussasta myyjiltämme ja osoitteesta www.kamux.fi/kamux-plus\r\n\r\nHinta sisältää autoveron, kuljetukset ja rekisteröinnin Suomeen.\r\n\r\nTämä auto on mahdollista ostaa kotiinkuljetuksella tai noudolla lähimmästä Kamux-liikkeestäsi riippumatta siitä missä auto tällä hetkellä sijaitsee.\r\n    \r\nTarkista varusteiden ja tietojen oikeellisuus myyjältä.",
+    "showPostingDate": true,
+    "kilometers": 79100,
+    "engineSize": null,
+    "seats": 5,
+    "doors": 5,
+    "steeringWheelLeft": true,
+    "power": 150,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 0,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": null,
+    "torque": 310,
+    "co2Emission": null,
+    "topSpeed": 160,
+    "acceleration": 8.5,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": null,
+    "electricConsumptionRoad": null,
+    "electricConsumptionCombined": null,
+    "curbWeight": 2124,
+    "grossWeight": 2660,
+    "towWeightWithBrakes": 1200,
+    "towWeightWithoutBrakes": 750,
+    "showExactLocation": false,
+    "streetAddress": null,
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot&rekkari=FI-0000934&kuva=https://images.nettiauto.com/live/2022/03/07/87e594044fccdac4-large.jpg&ajoneuvolaji=1",
+    "showPriceHistory": true,
+    "deliveryCost": 229,
+    "undriven": false,
+    "images": [
+      {
+        "id": 147411224,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/87e594044fccdac4-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/87e594044fccdac4-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/87e594044fccdac4-medium.jpg",
+          "width": 544,
+          "height": 306
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2022/03/07/87e594044fccdac4-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    ],
+    "video": null,
+    "image360": null,
+    "labels": [
+      "new24h"
+    ],
+    "insuranceInfo": [],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": null,
+    "chargingPower": null,
+    "maximumChargingPower": null,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "290 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  },
+  {
+    "status": "forsale",
+    "id": "13882629",
+    "adUrl": "https://www.nettiauto.com/citroen/e-c4/13882629",
+    "userId": 2555066,
+    "uuid": "8d6a5c68-4652-4c9f-b9cc-2f2c38909d3c",
+    "userName": "Samu Wessman",
+    "postedBy": "seller",
+    "dateCreated": "2023-09-30T11:22:23Z",
+    "dateUpdated": "2023-09-30T11:22:43Z",
+    "lastModified": "2023-09-30T11:22:23Z",
+    "vehicleType": {
+      "id": 1,
+      "fi": "Henkilöauto",
+      "en": "Car"
+    },
+    "make": {
+      "id": 13,
+      "name": "Citroen",
+      "mostPopular": false
+    },
+    "model": {
+      "id": 4879,
+      "name": "e-C4"
+    },
+    "modelType": null,
+    "bodyType": {
+      "id": 3,
+      "fi": "Viistoperä",
+      "en": "Hatchback"
+    },
+    "color": {
+      "id": 4,
+      "fi": "Hopea",
+      "en": "Silver"
+    },
+    "colorType": {
+      "id": 2,
+      "fi": "Normaali väri",
+      "en": "Nonmetallic"
+    },
+    "fuelType": {
+      "id": 4,
+      "fi": "Sähkö",
+      "en": "Electric"
+    },
+    "driveType": {
+      "id": 1,
+      "fi": "Etuveto",
+      "en": "Front wheel"
+    },
+    "gearType": {
+      "id": 3,
+      "fi": "Automaatti",
+      "en": "Automatic"
+    },
+    "country": {
+      "id": 73,
+      "fi": "Suomi",
+      "en": "Finland",
+      "isoCode": "FI"
+    },
+    "region": {
+      "id": 13,
+      "fi": "Uusimaa",
+      "en": "Uusimaa"
+    },
+    "town": {
+      "id": 268,
+      "fi": "Hyvinkää",
+      "en": "Hyvinkää"
+    },
+    "accessories": [
+      {
+        "id": 1,
+        "fi": "Ohjaustehostin",
+        "en": "Power steering"
+      },
+      {
+        "id": 1001,
+        "fi": "Keskuslukitus: Avaimeton",
+        "en": "Central locking: Keyless"
+      },
+      {
+        "id": 3,
+        "fi": "Sähkökäyttöiset ikkunat",
+        "en": "Power windows"
+      },
+      {
+        "id": 5,
+        "fi": "Kevytmetallivanteet",
+        "en": "Alloy wheels"
+      },
+      {
+        "id": 1007,
+        "fi": "Ilmastointi: Automaattinen",
+        "en": "Airconditioning: Automatic"
+      },
+      {
+        "id": 10,
+        "fi": "Lohkolämmitin / moottorilämmitin",
+        "en": "Motor heater"
+      },
+      {
+        "id": 11,
+        "fi": "Nahkaverhoilu",
+        "en": "Leather upholstery"
+      },
+      {
+        "id": 12,
+        "fi": "Lukkiutumattomat jarrut (ABS)",
+        "en": "ABS brakes"
+      },
+      {
+        "id": 13,
+        "fi": "Turvatyynyt",
+        "en": "Airbag"
+      },
+      {
+        "id": 1022,
+        "fi": "Huoltokirja: Paperinen",
+        "en": "Service manual: Paper"
+      },
+      {
+        "id": 1012,
+        "fi": "Radio",
+        "en": "Radio"
+      },
+      {
+        "id": 1016,
+        "fi": "Bluetooth",
+        "en": "Bluetooth"
+      },
+      {
+        "id": 17,
+        "fi": "Varashälytin",
+        "en": "Alarm system"
+      },
+      {
+        "id": 1021,
+        "fi": "Kattoluukku: Panoraama",
+        "en": "Sun hatch: With panorama"
+      },
+      {
+        "id": 19,
+        "fi": "Luistonestojärjestelmä",
+        "en": "Traction control"
+      },
+      {
+        "id": 1006,
+        "fi": "Vakionopeudensäädin: Mukautuva",
+        "en": "Cruise control: Adaptive"
+      },
+      {
+        "id": 1003,
+        "fi": "Sähkösäätöiset istuimet: Ilman muistia",
+        "en": "Electric seats: Without memory"
+      },
+      {
+        "id": 23,
+        "fi": "Ajotietokone",
+        "en": "On board computer"
+      },
+      {
+        "id": 25,
+        "fi": "Penkinlämmittimet",
+        "en": "Seat heaters"
+      },
+      {
+        "id": 26,
+        "fi": "Pysäköintitutka",
+        "en": "Parking sensors"
+      },
+      {
+        "id": 27,
+        "fi": "Sähköpeilit",
+        "en": "Electric mirrors"
+      },
+      {
+        "id": 28,
+        "fi": "Navigointijärjestelmä",
+        "en": "Satellite navigator"
+      },
+      {
+        "id": 1009,
+        "fi": "Katon avausmekanismi: Sähköinen",
+        "en": "Roof Opening Mechanism: Electronic"
+      },
+      {
+        "id": 35,
+        "fi": "Sadetunnistin",
+        "en": "Rain Sensor"
+      },
+      {
+        "id": 36,
+        "fi": "Monitoimiohjauspyörä",
+        "en": "Multiactive Steering Wheel"
+      },
+      {
+        "id": 38,
+        "fi": "Matkapuhelinvarustus",
+        "en": "Hands-free kit"
+      },
+      {
+        "id": 40,
+        "fi": "Lasikatto",
+        "en": "Sunroof"
+      },
+      {
+        "id": 41,
+        "fi": "Isofix-valmius",
+        "en": "Isofix-ready"
+      },
+      {
+        "id": 42,
+        "fi": "Kaarrevalot",
+        "en": "Curve lights"
+      },
+      {
+        "id": 43,
+        "fi": "Mäkilähtöavustin",
+        "en": "Auto hold"
+      },
+      {
+        "id": 44,
+        "fi": "Avaimeton käynnistys",
+        "en": "Keyless start"
+      },
+      {
+        "id": 45,
+        "fi": "Lämmitettävä tuulilasi",
+        "en": "Heated windshield"
+      },
+      {
+        "id": 49,
+        "fi": "LED-ajovalot",
+        "en": "LED-headlights"
+      },
+      {
+        "id": 51,
+        "fi": "Pysäköintiavustin",
+        "en": "Parking Assistant"
+      },
+      {
+        "id": 1019,
+        "fi": "Peruutuskamera: 360-asteen kamera",
+        "en": "Parking camera: 360-degree camera"
+      },
+      {
+        "id": 56,
+        "fi": "Rengaspainevalvonta -järjestelmä",
+        "en": "Tire-pressure monitoring system"
+      },
+      {
+        "id": 57,
+        "fi": "Nopeusrajoitus -tunnistin",
+        "en": "Traffic sign recognition"
+      },
+      {
+        "id": 58,
+        "fi": "Kaistavahti",
+        "en": "Lane departure warning system"
+      },
+      {
+        "id": 59,
+        "fi": "Head-Up-näyttö",
+        "en": "Head-Up display"
+      },
+      {
+        "id": 60,
+        "fi": "Älypuhelimen integrointi",
+        "en": "Smartphone integration"
+      },
+      {
+        "id": 61,
+        "fi": "Adaptiiviset ajovalot",
+        "en": "Adaptive headlights"
+      },
+      {
+        "id": 62,
+        "fi": "Hätäjarrutusavustin",
+        "en": "Emergency brake assist"
+      },
+      {
+        "id": 63,
+        "fi": "Törmäysvaroitin",
+        "en": "Collision avoidance system"
+      },
+      {
+        "id": 65,
+        "fi": "Katveavustin",
+        "en": "Blind spot sensor"
+      },
+      {
+        "id": 66,
+        "fi": "Lämmitettävä ohjauspyörä",
+        "en": "Heated steering wheel"
+      },
+      {
+        "id": 67,
+        "fi": "Kaadettavat takaistuimet",
+        "en": "Folding rear seats"
+      }
+    ],
+    "tags": [
+      {
+        "id": 10,
+        "fi": "Automaatit",
+        "en": "Used automatic cars",
+        "descriptionFi": "Automaattivaihteisia autoja on myynnissä jo paljon. Automaatti on helppo ajaa varsinkin ruuhkassa, sillä automaattivaihteisto huolehtii vaihteen vaihtamisesta kuljettajan puolesta. Tiesitkö, että ensimmäiset automaattivaihteiset autot tulivat myyntiin jo 1940-luvulla?",
+        "descriptionEn": ""
+      },
+      {
+        "id": 46,
+        "fi": "Vähän ajetut",
+        "en": "Low mileage cars",
+        "descriptionFi": "Löydä käytetty, vähän ajettu auto näiden ilmoitusten kautta.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 54,
+        "fi": "Vähäpäästöiset",
+        "en": "Low emission cars and vehicles",
+        "descriptionFi": "Vähäpäästöinen auto merkitsee ekologisempia kilometrejä. Autovero kannustaa vähäpäästöisen auton hankintaan.",
+        "descriptionEn": ""
+      },
+      {
+        "id": 67,
+        "fi": "Sähköautot",
+        "en": "Used electric cars",
+        "descriptionFi": "Sähköautot, eli täysin sähköllä kulkevat autot ovat yhä useamman kuluttajan hankintalistalla. Käytettyjä täyssähköautoja onkin jo kosolti myynnissä ja löydät ne tältä sivulta. Selaa ilmoituksia ja löydä sinulle sopiva sähköauto edullisesti. Katso myös ladattavat <a href=\"https://www.nettiauto.com/pikalinkit/plug-in-hybridit\">hybridit</a>",
+        "descriptionEn": ""
+      }
+    ],
+    "year": 2021,
+    "modelTypeName": null,
+    "vin": null,
+    "firstRegistrationMonth": null,
+    "firstRegistrationYear": null,
+    "roadWorthy": true,
+    "lastInspectionMonth": 8,
+    "lastInspectionYear": 2023,
+    "tooNewForInspections": false,
+    "price": 26500,
+    "isPriced": true,
+    "taxFree": false,
+    "vatDeduct": false,
+    "registerNumber": "IRK-804",
+    "showRegisterNumber": true,
+    "totalOwners": null,
+    "description": "Melkein ajamaton citikka kaikilla mukavuuksilla\nHierovat etupenkit, kattoikkuna, ratin lämmitin, langaton puhelimen lataus, HUD, 360° peruutuskamera, yms\n\nOikein tilava ja mukava ajaa, ja täydellä akulla pääsee jopa 350km. Eikä ole edes ajettu kun 9000km\nAlla on käytännössä uudet kitkarenkaat\n\nAuto on ranskasta tuotu ja kilvet sai 28.9.2023\n\n\nKysy vaimolta lupa ennen kun soitat!\nEI VAIHTOJA",
+    "showPostingDate": true,
+    "kilometers": 9000,
+    "engineSize": null,
+    "seats": 5,
+    "doors": 5,
+    "steeringWheelLeft": true,
+    "power": 100,
+    "powerUnitIsKw": true,
+    "batteryCapacity": 50,
+    "batteryGuaranteeMonth": null,
+    "batteryGuaranteeKm": null,
+    "electricRange": 350,
+    "torque": 300,
+    "co2Emission": null,
+    "topSpeed": 250,
+    "acceleration": 5,
+    "consumptionUrban": null,
+    "consumptionRoad": null,
+    "consumptionCombined": null,
+    "electricConsumptionUrban": 20,
+    "electricConsumptionRoad": 15,
+    "electricConsumptionCombined": 18,
+    "curbWeight": null,
+    "grossWeight": null,
+    "towWeightWithBrakes": null,
+    "towWeightWithoutBrakes": null,
+    "showExactLocation": true,
+    "streetAddress": "Ahdenkallionkatu 43",
+    "rekkariUrl": "https://rekkari.fi?utm_source=nettiauto&utm_medium=application&utm_campaign=tarkista-tiedot&rekkari=IRK-804&kuva=https://images.nettiauto.com/live/2023/09/30/8deb728c0a2d92dd-large.jpg&ajoneuvolaji=1",
+    "images": [
+      {
+        "id": 147413097,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8deb728c0a2d92dd-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8deb728c0a2d92dd-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8deb728c0a2d92dd-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/8deb728c0a2d92dd-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413143,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d21fb238b468a8f1-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d21fb238b468a8f1-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d21fb238b468a8f1-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d21fb238b468a8f1-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413184,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/343bd7ca2080de8a-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/343bd7ca2080de8a-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/343bd7ca2080de8a-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/343bd7ca2080de8a-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413209,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/5a78be62c30f6274-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/5a78be62c30f6274-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/5a78be62c30f6274-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/5a78be62c30f6274-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413406,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/e105c28c431d9e59-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/e105c28c431d9e59-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/e105c28c431d9e59-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/e105c28c431d9e59-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413431,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d50dba9e49a05c09-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d50dba9e49a05c09-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d50dba9e49a05c09-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d50dba9e49a05c09-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413461,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/5358f0a1f4791548-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/5358f0a1f4791548-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/5358f0a1f4791548-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/5358f0a1f4791548-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413487,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/69fbf5b6909750ab-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/69fbf5b6909750ab-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/69fbf5b6909750ab-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/69fbf5b6909750ab-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413506,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/2e7f13d847862a63-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/2e7f13d847862a63-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/2e7f13d847862a63-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/2e7f13d847862a63-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413536,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/7007bdfa2b2ef02e-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/7007bdfa2b2ef02e-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/7007bdfa2b2ef02e-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/7007bdfa2b2ef02e-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413579,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/b53d7adb5d5becd5-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/b53d7adb5d5becd5-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/b53d7adb5d5becd5-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/b53d7adb5d5becd5-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413612,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/616bf48a11dd80a5-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/616bf48a11dd80a5-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/616bf48a11dd80a5-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/616bf48a11dd80a5-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413638,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/6227dcf689c5a016-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/6227dcf689c5a016-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/6227dcf689c5a016-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/6227dcf689c5a016-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413678,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0d6f3d8c73cdf4de-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0d6f3d8c73cdf4de-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0d6f3d8c73cdf4de-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0d6f3d8c73cdf4de-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413702,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/c103e657b308f9ab-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/c103e657b308f9ab-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/c103e657b308f9ab-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/c103e657b308f9ab-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413728,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/ad77c3289da06628-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/ad77c3289da06628-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/ad77c3289da06628-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/ad77c3289da06628-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413756,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0bf94ff8d59299f1-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0bf94ff8d59299f1-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0bf94ff8d59299f1-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/0bf94ff8d59299f1-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413795,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/e50f8f92a92f7ac0-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/e50f8f92a92f7ac0-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/e50f8f92a92f7ac0-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/e50f8f92a92f7ac0-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413827,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d06ec645f553b436-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d06ec645f553b436-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d06ec645f553b436-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/d06ec645f553b436-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      },
+      {
+        "id": 147413866,
+        "smallThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/49e167d54d202c5e-smallThumbnail.jpg",
+          "width": 80,
+          "height": 60
+        },
+        "largeThumbnail": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/49e167d54d202c5e-largeThumbnail.jpg",
+          "width": 160,
+          "height": 120
+        },
+        "medium": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/49e167d54d202c5e-medium.jpg",
+          "width": 640,
+          "height": 360
+        },
+        "large": {
+          "url": "https://images.nettiauto.com/live/2023/09/30/49e167d54d202c5e-large.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      }
+    ],
+    "video": null,
+    "labels": [
+      "new24h",
+      "priceDroppedInstruction"
+    ],
+    "insuranceInfo": [
+      {
+        "logo": "https://cdn.almaajo.fi/live/asset/nettix/insurance_provider/if.png",
+        "title": "Haussa halvin autovakuutus?",
+        "text": "Alempi hinta vakuutukselle, kun ajokilometrejä kertyy vähän.<br />Laskut 12 erässä ilman lisäkuluja.<br />Kaskoon heti 80 % bonus.",
+        "url": "//www.if.fi/henkiloasiakkaat/vakuutukset/autovakuutus?utm_source=nettiauto&utm_medium=banner&utm_campaign=fi_if_b2c_harvest_motor_car&utm_content=vehicle_car_nettiauto_banner_prospecting_laskehinta&dclid=CIeeuu7mo_ICFVWcSwUdAh8G6g"
+      }
+    ],
+    "lockedFields": [],
+    "people": null,
+    "chargingType": [
+      {
+        "id": 3,
+        "fi": "Type 2",
+        "en": "Type 2"
+      }
+    ],
+    "chargingPower": 11,
+    "maximumChargingPower": 111,
+    "archivedTimeStamp": null,
+    "isVerified": false,
+    "dateRenew": null,
+    "distance": "40 km",
+    "isMyFavorite": false,
+    "isHiddenAd": false
+  }
+]
