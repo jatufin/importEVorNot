@@ -7,7 +7,7 @@ from glob import glob
 
 INPUT_DIR = "query_results"
 
-OUTPUT_FILE_NAME = "preprocessed_results.csv"
+OUTPUT_FILE_NAME = "results.csv"
 OUTPUT_CSV_DELIMITER = ";"
 
 SELECTED_COLUMNS = [
@@ -35,17 +35,10 @@ SELECTED_COLUMNS = [
     "maximumChargingPower"
 ]
 
-#with open(INPUT_FILE_NAME) as f:
-#    data = json.load(f)
-
-#for item in data:
-#    print(f"Type: {type(item)}")
-
+# Read JSON files into single datframe
 files = glob(os.path.join(INPUT_DIR, "*.json"))
-
-rows, cols = df.shape
-
 df = pd.concat((pd.read_json(f) for f in files))
+rows, cols = df.shape
 print(f"Number of rows imported: {rows} (columns: {cols})")
 
 # Drop columns we are not interested in
@@ -72,9 +65,9 @@ def dictReplacer(a):
 
     return a
 
-
 df = df.map(dictReplacer, na_action="ignore")
 
-df.to_csv(OUTPUT_FILE_NAME)
+# Save the dataframe
+df.to_csv(OUTPUT_FILE_NAME, index=False)
 
 print(f"File '{OUTPUT_FILE_NAME}' created")
