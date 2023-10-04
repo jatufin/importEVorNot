@@ -50,7 +50,7 @@ def dictReplacer(a):
     if isinstance(a, list):
         for i, item in enumerate(a):
             a[i] = dictReplacer(item)
-        return ",".join(a)
+        return ",".join(a).lower()
 
     if not isinstance(a, dict):
         return a
@@ -67,7 +67,17 @@ def dictReplacer(a):
 
 df = df.map(dictReplacer, na_action="ignore")
 
+# Accessories
+df["accessories"] = df["accessories"].fillna("")
+df["keyless"] = df["accessories"].apply(lambda a: 1 if "keyless" in a else 0)
+df["towbar"] = df["accessories"].apply(lambda a: 1 if "tow bar" in a else 0)
+df["leather"] = df["accessories"].apply(lambda a: 1 if "leather" in a else 0)
+
+
 # Save the dataframe
 df.to_csv(OUTPUT_FILE_NAME, index=False)
 
 print(f"File '{OUTPUT_FILE_NAME}' created")
+
+
+
