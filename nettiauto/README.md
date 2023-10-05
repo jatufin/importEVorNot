@@ -47,3 +47,28 @@ Count: 91
 Result pages received (max 100 results per page): 1
 ```
 
+## Processing columns and filling missing data
+
+* id: no change
+* vehicleType: Mode of the same make and model
+* make: discard row if missing
+* model: Mode of the same make
+* modelType: Mode of the same model
+* color: mode
+* colorType: mode
+* driveType: mode of the same model
+* accessories: Extract to boolean (0 or 1) columns
+* price: Median of the same model/year
+* totalOwners: Median
+* kilometers: Median of the year
+* seats: Mode of the same model/year
+* doors: Mode of the same model/year
+* power: Mean of the same model/year
+* batteryCapacity: Mode of the same model/year
+* batteryGuaranteeMonth: no change
+* batteryGuaranteeKm: no change
+* electricRange: Mean of the same model/year
+* chargingType: no change
+* chargingPower: no change
+* maximumChargingPower: no change
+
