@@ -22,8 +22,20 @@ def _get_capacity(soup):
 def extract_car_data(html):
     page_n = unicodedata.normalize("NFKD", html)
     soup = BeautifulSoup(page_n, 'html.parser')
+    first_registration_elements = soup.find_all(class_='key-feature key-feature--firstRegistration')
+    if not len(first_registration_elements):
+        raise 'Not a used car'
 
-    data = {}
+    first_registration_element = first_registration_elements[0]
+    first_registration_text = first_registration_element.find('div', class_='key-feature__value').text.strip()
+    first_registration_parts = first_registration_text.split('/')
+    firstRegistrationMonth = int(first_registration_parts[0])
+    firstRegistrationYear = int(first_registration_parts[1])
+
+    data = {
+        'firstRegistrationMonth': firstRegistrationMonth,
+        'firstRegistrationYear': firstRegistrationYear,
+    }
     data["make"], data["model"] = soup.find(id="ad-title").get_text().split(" ", 1)
     data["modelTypeName"] = soup.find_all(class_='listing-subtitle')[0].get_text()
     data["color"], color_type, *_ = s.get_text().split() + ["Nonmetallic"] if (s:=soup.find(id="color-v")) else [None, None]
