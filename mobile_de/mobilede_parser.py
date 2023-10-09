@@ -25,6 +25,7 @@ def extract_car_data(html):
 
     data = {}
     data["make"], data["model"] = soup.find(id="ad-title").get_text().split(" ", 1)
+    data["modelTypeName"] = soup.find_all(class_='listing-subtitle')[0].get_text()
     data["color"], color_type, *_ = s.get_text().split() + ["Nonmetallic"] if (s:=soup.find(id="color-v")) else [None, None]
     data["metallicColor"] = "Metallic" in color_type
     data["kilometers"] = _parse_number(soup.find(id="mileage-v").get_text())
