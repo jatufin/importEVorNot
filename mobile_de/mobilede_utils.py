@@ -63,7 +63,7 @@ def request_mobile_de_page(path):
     return resp3.text
 
 def request_car_detail_page(id):
-    return request_mobile_de_page('/fahrzeuge/details.html?id={}'.format(id))
+    return request_mobile_de_page('/fahrzeuge/details.html?id={}&lang=en'.format(id))
 
 def request_search_page(make, model, page=1):
     q_params = {

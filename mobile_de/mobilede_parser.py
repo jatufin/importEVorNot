@@ -30,15 +30,15 @@ def extract_car_data(html):
     data["kilometers"] = _parse_number(soup.find(id="mileage-v").get_text())
     data["price"] = _parse_number(soup.find("span", {"data-testid" : "prime-price"}).get_text())
     data["registration"] = s.get_text() if (s:=soup.find(id="firstRegistration-v")) else None
-    data["electric"] = soup.find(id="fuel-v").get_text() == "Elektro"
+    data["electric"] = soup.find(id="fuel-v").get_text() == "Electric"
     data["power"] = re.findall(r"\d+", soup.find(id="power-v").get_text())[0]
     data["batteryCapacity"] = _get_capacity(soup)
-    data["automatic"] = s.get_text() == "Automatik" if (s:=soup.find(id="transmission-v")) else None
-    data["undamaged"] = s.get_text() == "Unfallfrei" if (s := soup.find(id="damageCondition-v")) else None
+    data["automatic"] = s.get_text() == "Automatic transmission" if (s:=soup.find(id="transmission-v")) else None
+    data["undamaged"] = s.get_text() == "Accident-free" if (s := soup.find(id="damageCondition-v")) else None
     data["seats"] = s.get_text() if (s:= soup.find(id="numSeats-v")) else None
-    data["leather_upholstery"] = "Vollleder" in s.get_text() if (s:= soup.find(id="interior-v")) else None  
+    data["leather_upholstery"] = "leather" in s.get_text().lower() if (s:= soup.find(id="interior-v")) else None  
     data["isSUV"] = ("SUV" in s.get_text()) if (s:= soup.find(id="category-v")) else None
-    data["airconditioning"] = ("Keine Klimaanlage" not in s.get_text()) if (s:= soup.find(id="climatisation-v")) else None
+    data["airconditioning"] = ("no climatisation" not in s.get_text().lower()) if (s:= soup.find(id="climatisation-v")) else None
 
     s= soup.find(id="envkv.wltp.powerConsumption-v")
     res = re.findall(r"(\d+,\d+)", s.get_text()) if s else None
