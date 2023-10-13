@@ -1,0 +1,70 @@
+make,model,batteryCapacity,regex,inverse
+toyota,bz4x,64,.*,FALSE
+mercedes-benz,eqe,89,(350|300)\s,FALSE
+mercedes-benz,eqe,90.6,(350\+|500|43)\s,FALSE
+mercedes-benz,eqs,108.4,(450|450\+|580|53)\s,
+mercedes-benz,eqs,90.6,(350)\s,FALSE
+mercedes-benz,eqa,70.5,\d{3}\+,FALSE
+mercedes-benz,eqa,66.5,\d{3},FALSE
+mercedes-benz,eqb,70.5,\d{3}\+,FALSE
+mercedes-benz,eqb,66.5,\d{3},FALSE
+mercedes-benz,eqc,80,.*,FALSE
+bmw,ix,76.6,xDrive\s*40,FALSE
+bmw,ix,111.5,xDrive\s*40,TRUE
+bmw,ix1,66.5,.*,FALSE
+bmw,i4,83.9,.*,FALSE
+bmw,i4 m50,83.9,.*,FALSE
+bmw,ix3,80,.*,FALSE
+bmw,i7,101.7,.*,FALSE
+bmw,ix m50,111.5,.*,FALSE
+tesla,model 3,54.5,standard[-|\s]*range,FALSE
+tesla,model 3,78.75,long[\s|-]range|performance,FALSE
+tesla,model y,78.1,standard[-|\s]*range,FALSE
+tesla,model y,78.1,long[\s|-]range|performance,FALSE
+volvo,xc40,78,recharge\s*twin,FALSE
+volvo,xc40,69,recharge,FALSE
+volvo,c40,78,recharge\s*twin,FALSE
+volvo,c40,69,recharge,FALSE
+opel,mokka-e,50,.*,FALSE
+opel,corsa-e,50,.*,FALSE
+audi,q4 e-tron,55,35,FALSE
+audi,q4 e-tron,82,40|45|50,FALSE
+audi,e-tron,95,55.*quattro,FALSE
+audi,e-tron,71,50.*(q|g)uattro),FALSE
+audi,e-tron,95,Sportback 55,FALSE
+audi,e-tron,95,Sportback S,FALSE
+audi,q8 e-tron,95,55.*quattro,FALSE
+audi,q8 e-tron,71,50.*quattro,FALSE
+audi,q8 e-tron,95,Sportback 55,FALSE
+audi,q8 e-tron,71,Sportback 50,FALSE
+audi,e-tron gt,93.4,.*,FALSE
+audi,e-tron gt rs,93.4,.*,FALSE
+kia,niro,68,.*,FALSE
+kia,ev6,77.5,.*,FALSE
+kia,e-soul,67.5,.*,FALSE
+kia,niro ev,68,.*,FALSE
+kia,ev9,99.8,.*,FALSE
+skoda,enyaq,82,4x4,FALSE
+skoda,enyaq,82,80,FALSE
+skoda,enyaq,62,60,FALSE
+volkswagen,id5,77,GTX,FALSE
+volkswagen,id5,77,128 KW,FALSE
+volkswagen,id4,77,Pro Performance,FALSE
+volkswagen,id3,58,akku 58,FALSE
+volkswagen,id3,42,pure,FALSE
+volkswagen,id3,58,pro business,FALSE
+volkswagen,id3,77,pro s business,FALSE
+porsche,taycan,93.4,Cross Turismo,FALSE
+porsche,taycan,93.4,Sport Turismo,FALSE
+porsche,taycan,93.4,Performance Battery Plus,FALSE
+porsche,taycan,93.4,turbo,FALSE
+porsche,taycan,93.4,gts,FALSE
+porsche,taycan,93.4,Perf. Battery\+,FALSE
+porsche,taycan,79.2,4s,FALSE
+hyundai,ioniq 5,77.4,.*,FALSE
+hyundai,ioniq 6,77.4,.*,FALSE
+peugeot,e-208,50,.*,FALSE
+peugeot,e-2008,50,.*,FALSE
+polestar,2,75,Long Range,FALSE
+polestar,2,78,Engineered BST 270,FALSE
+polestar,2,67,Standard Range,FALSE
