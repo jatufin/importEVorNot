@@ -2,7 +2,7 @@ make,model,batteryCapacity,regex,inverse
 toyota,bz4x,64,.*,FALSE
 mercedes-benz,eqe,89,(350|300)\s,FALSE
 mercedes-benz,eqe,90.6,(350\+|500|43)\s,FALSE
-mercedes-benz,eqs,108.4,(450|450\+|580|53)\s,
+mercedes-benz,eqs,108.4,(450|450\+|580|53)\s,FALSE
 mercedes-benz,eqs,90.6,(350)\s,FALSE
 mercedes-benz,eqa,70.5,\d{3}\+,FALSE
 mercedes-benz,eqa,66.5,\d{3},FALSE
