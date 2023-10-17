@@ -21,16 +21,6 @@ with open(EXAMPLE_X_FILE,"r") as f:
 with open(EXAMPLE_Y_FILE,"r") as f:
     example_y = json.load(f)
 
-# TODO: To be removed
-@app.route("/")
-def main():
-    return redirect("/index")
-
-# TODO: To be removed
-@app.route("/index")
-def index():
-     return render_template("index.html", foo="Bar")
-
 @app.route("/schema", methods=["GET"])
 def schema():
     return json.dumps(features)
