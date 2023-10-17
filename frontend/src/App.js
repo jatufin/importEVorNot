@@ -26,14 +26,14 @@ const QueryForm = ({ onSubmit, query, onQueryChange }) => (
 
 ///////////////////
 // Here is the prediction shown after it has been acquired from the backend
-const Prediction = ({ value }) => (
+const Message = ({ value }) => (
         <div>{value}</div>
 )
 
 function App() {
     const [url, setUrl] = useState("")
     const [query, setQuery] = useState("")
-    const [prediction, setPrediction] = useState("")
+    const [message, setMessage] = useState("")
     
     const fetchFromMobile = (event) => {
         event.preventDefault()
@@ -41,7 +41,7 @@ function App() {
         axios
             .post("http://localhost:5000/fetch", { "url": url })
             .then(response => setQuery(JSON.stringify(response.data)))
-
+            .catch(error => setMessage("There was a problem with fetching the advertisement."))
         setUrl("")
     }
 
@@ -50,8 +50,10 @@ function App() {
 
         axios
             .post("http://localhost:5000/predict", { "query": query })
-            .then(response => setPrediction(response.data.price))
+            .then(response => setMessage("Predicted price: " + response.data.price))
+            .catch(error => setMessage("There was a problem with making the prediction."))
     }
+    
     const urlChangeHandler = (event) => setUrl(event.target.value)
     const queryChangeHandler = (event) => setQuery(event.target.value)
     
@@ -60,7 +62,7 @@ function App() {
             <Title />
             <UrlForm url={url} onSubmit={fetchFromMobile} onUrlChange={urlChangeHandler} />
             <QueryForm query={query} onSubmit={predict} onQueryChange={queryChangeHandler} />
-            <Prediction value={prediction} />
+            <Message value={message} />
             </div>
     )
 }
