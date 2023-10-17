@@ -41,7 +41,7 @@ function App() {
         axios
             .post("http://localhost:5000/fetch", { "url": url })
             .then(response => setQuery(JSON.stringify(response.data)))
-
+            .catch(error => console.log(error))
         setUrl("")
     }
 
@@ -51,7 +51,9 @@ function App() {
         axios
             .post("http://localhost:5000/predict", { "query": query })
             .then(response => setPrediction(response.data.price))
+            .catch(error => console.log(error))
     }
+    
     const urlChangeHandler = (event) => setUrl(event.target.value)
     const queryChangeHandler = (event) => setQuery(event.target.value)
     

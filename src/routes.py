@@ -1,5 +1,5 @@
 from app import app
-from flask import redirect, render_template, request
+from flask import redirect, render_template, request, Response
 
 import json
 import pandas as pd
@@ -35,26 +35,33 @@ def schema():
 # Example in file: nettiauto/example_X.json
 @app.route("/fetch", methods=["POST"])
 def fetch():
-    json_data = json.loads(request.data)
-    url = json_data["url"]
+    try:
+        json_data = json.loads(request.data)
+        url = json_data["url"]
 
-    # TODO: implement
-    # X = fecth_from_mobile(url)
-    X = example_X # mock
+        # TODO: implement
+        # X = fecth_from_mobile(url)
+        X = example_X # mock
     
-    return json.dumps(X)
+        return json.dumps(X)
+    except:
+        return "Error occurred when fetching data", 400
+
 
 # Should get an feature vector and returns a predicted price
 @app.route("/predict", methods=["POST"])
 def predict():
-    json_data = json.loads(request.data)
-    query_json_string = json_data["query"]
+    try:
+        json_data = json.loads(request.data)
+        query_json_string = json_data["query"]
 
-    X = pd.read_json(query_json_string, orient="split")
+        X = pd.read_json(query_json_string, orient="split")
     
-    predicted = xgb_regressor.predict(X)    
+        predicted = xgb_regressor.predict(X)    
 
-    return json.dumps({ "price": str(predicted[0]) })
+        return json.dumps({ "price": str(predicted[0]) })
+    except:
+        return "Prediction error", 400
     
     
     
