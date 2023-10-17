@@ -49,7 +49,7 @@ function App() {
         event.preventDefault()
 
         axios
-            .post("http://localhost:5000/predict", query)
+            .post("http://localhost:5000/predict", { "query": query })
             .then(response => setPrediction(response.data.price))
     }
     const urlChangeHandler = (event) => setUrl(event.target.value)
