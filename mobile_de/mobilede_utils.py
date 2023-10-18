@@ -1,8 +1,6 @@
 import requests
 import re
-import urllib.parse
-
-from car_mapping import CAR_MAKE_MAP, CAR_MAKE_MODEL_MAP
+# import urllib.parse
 
 def request_mobile_de_page(path):
     BASE_URL = 'https://suchen.mobile.de'
@@ -65,22 +63,22 @@ def request_mobile_de_page(path):
 def request_car_detail_page(id):
     return request_mobile_de_page('/fahrzeuge/details.html?id={}&lang=en'.format(id))
 
-def request_search_page(make, model, page=1):
-    q_params = {
-        'cn': 'DE',
-        'fe': 'ELECTRIC_HEATED_SEATS',
-        'fr': '2022:',
-        'ft': 'ELECTRICITY',
-        'isSearchRequest': 'true',
-        'ms': '{};{};;'.format(CAR_MAKE_MAP[make], CAR_MAKE_MODEL_MAP[CAR_MAKE_MAP[make]][model]),
-        'od': 'up',
-        'pageNumber': str(page),
-        'ref': 'dsp',
-        's': 'Car',
-        'sb': 'p',
-        'vc': 'Car',
-    }
+# def request_search_page(make, model, page=1):
+#     q_params = {
+#         'cn': 'DE',
+#         'fe': 'ELECTRIC_HEATED_SEATS',
+#         'fr': '2022:',
+#         'ft': 'ELECTRICITY',
+#         'isSearchRequest': 'true',
+#         'ms': '{};{};;'.format(CAR_MAKE_MAP[make], CAR_MAKE_MODEL_MAP[CAR_MAKE_MAP[make]][model]),
+#         'od': 'up',
+#         'pageNumber': str(page),
+#         'ref': 'dsp',
+#         's': 'Car',
+#         'sb': 'p',
+#         'vc': 'Car',
+#     }
     
-    q = urllib.parse.urlencode(q_params)
+#     q = urllib.parse.urlencode(q_params)
     
-    return request_mobile_de_page('/fahrzeuge/search.html?{}'.format(q))
+#     return request_mobile_de_page('/fahrzeuge/search.html?{}'.format(q))
