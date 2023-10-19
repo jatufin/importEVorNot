@@ -95,7 +95,10 @@ def fetch():
         
         html = request_car_detail_page(id)
         car_data = extract_car_data(html)
-    
+        
+        img_url_regex =r'<meta property=\"og:image:url\" content=\"(https:\/\/.*.jpg)\"\/><meta property=\"og:image:type\" content=\"image\/jpeg\"\/>'
+        car_data["img_url"] = re.findall(img_url_regex, html)[0]
+        
         return json.dumps(car_data)
     except:
         return "Error occurred when fetching data", 400

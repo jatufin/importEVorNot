@@ -63,6 +63,7 @@ function App() {
             <UrlForm url={url} onSubmit={fetchFromMobile} onUrlChange={urlChangeHandler} />
             <QueryForm query={query} onSubmit={predict} onQueryChange={queryChangeHandler} />
             <Message value={message} />
+            {query ? <img src={JSON.parse(query)["img_url"]} alt="car" width="500" /> : ""}
             </div>
     )
 }
