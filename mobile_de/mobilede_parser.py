@@ -33,6 +33,10 @@ def get_drive_type(make, model, features):
     if 'Four wheel drive' in features:
         return '4wd'
     make_df = drivetype_df[(drivetype_df['make'] == make) &( drivetype_df['model'] == model)].sort_values(by='driveType', ascending=False).reset_index(drop=True)
+
+    if len(make_df) == 0:
+        return("fwd") # TODO: Replace hard coded default value with real impute
+    
     return make_df['driveType'].iloc[0]
 
 
@@ -65,7 +69,10 @@ FEATURES_TO_COLUMN_NAME = {
     'Air suspension': 'air_suspension', # done
     'Adaptive cornering lights': 'curve_lights', # done
     'Head-up display': 'head_up_display', # done
-    'Sports suspension': 'sport_base', # done,    
+    'Sports suspension': 'sport_base', # done
+    'Electric seats with memory': 'electric_seats_with_memory',
+    'Driving assistant': 'driving_assistant',
+    'parking_sensors': 'parking_sensors'
 }
 
 
@@ -156,9 +163,10 @@ def extract_car_data(html):
         'isSuv': data['isSUV'],
         'metallicColor': data['metallicColor'],
         'airconditioning': data['airconditioning'],
+        'leather_upholstery': data['leather_upholstery'],
         **{FEATURES_TO_COLUMN_NAME[key]: key in features_set for key in FEATURES_TO_COLUMN_NAME.keys()}
     }
-            
+
     return result
 
 def parse_ad_ids(html):
