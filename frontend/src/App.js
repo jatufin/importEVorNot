@@ -49,8 +49,8 @@ function App() {
         event.preventDefault()
 
         axios
-            .post("http://localhost:5000/predict", { "query": query })
-            .then(response => setMessage("Predicted price: " + response.data.price))
+            .post("http://localhost:5000/predict", { "query": JSON.parse(query) })
+            .then(response => setMessage("Predicted price: " + response.data.prediction.price))
             .catch(error => setMessage("There was a problem with making the prediction."))
     }
     

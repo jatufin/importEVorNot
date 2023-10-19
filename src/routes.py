@@ -106,7 +106,7 @@ def fetch():
 def predict():
     try:
         json_data = json.loads(request.data)
-        df = pd.DataFrame([json_data])
+        df = pd.json_normalize(json_data["query"])
         df = df[data_columns]
         df_encoded = pd.get_dummies(df, columns=[
             "make",
