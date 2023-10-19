@@ -1,3 +1,6 @@
+# Temp files
+tmp.*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 src/**/__pycache__/
