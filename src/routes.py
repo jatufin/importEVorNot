@@ -50,7 +50,6 @@ def fetch():
 
             result = { "car_data": car_data,
                     "img_url": re.findall(img_url_regex, html)[0] }
-            #car_data["img_url"] = re.findall(img_url_regex, html)[0]
             
             POOR_MANS_CACHE[id] = json.dumps(result)
         return POOR_MANS_CACHE[id]
@@ -75,7 +74,7 @@ def predict():
         ])
 
         columns = xgb_regressor.get_booster().feature_names
-        X = pd.DataFrame(columns=columns, data=df_encoded)
+        X = pd.DataFrame(columns=columns, data=df_encoded).fillna(0)
         
         predicted = xgb_regressor.predict(X)    
         
