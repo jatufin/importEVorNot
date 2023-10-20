@@ -1,112 +1,206 @@
-import { useState } from "react"
-import axios from "axios"
-import { Formik, Form, Field } from "formik"
+import { useState } from "react";
+import axios from "axios";
+import { Formik, Form, Field } from "formik";
+import classNames from "classnames";
 
-const Title = () => (
-    <h1>importEVorNot</h1>
-)
+import { Button, TextField, FormControlLabel, Checkbox } from "@mui/material";
 
-const UrlForm = ({ onSubmit, url, onUrlChange }) => (
-        <form onSubmit={onSubmit}>
-        <label>Paste the URL here</label>
-        <input value={url} onChange={onUrlChange} />
-        <button type="submit">Fetch</button>
-        </form>
-)
+import "./style.scss";
 
-const Message = ({ value }) => (
-        <div>{value}</div>
-)
+const allowedFields = new Set([
+  "power",
+  "batteryCapacity",
+  "kilometers",
+  "totalOwners",
+]);
 
-const Image = ({ src, alt, width }) => (
-    src ? <img src={src} alt={alt} width={width} /> : ""
-)
+const Title = () => <h1>importEVorNot</h1>;
 
-const CarForm = ({ initialValues }) => {
-    if (initialValues === undefined || Object.keys(initialValues).length === 0) {
-        return
-    }
+const UrlForm = ({ onNewData }) => {
+  const [url, setUrl] = useState(
+    "https://suchen.mobile.de/fahrzeuge/details.html?id=371685965&cn=DE&fuels=ELECTRICITY&isSearchRequest=true&pageNumber=1&scopeId=C&sortOption.sortBy=creationTime&sortOption.sortOrder=DESCENDING&action=topOfPage&top=1:1&searchId=856659eb-7a56-6dcf-7214-894d377b468c&ref=srp"
+  );
+  const handleInputChange = (event) => {
+    setUrl(event.target.value);
+  };
 
-    var fields = []
-    for (const key in initialValues) {
-        const value = initialValues[key]
-        const data_type = typeof(value)
+  const fetchFromMobile = (event) => {
+    event.preventDefault();
 
-        let input_type = ""
-        switch (data_type) {
-        case "boolean":
-            input_type="checkbox"
-            break
-        case "number":
-            input_type="number"
-            break
-        default:
-            input_type="text"
-        }
+    // spinner
 
-        fields.push(
-                <div key={key}>
-                <label htmlFor={key}>{key}</label>
-                <Field id={key} name={key} type={input_type} />
-                <br />
-                </div>
-        )
-    }
+    axios.post("http://localhost:3000/fetch", { url: url }).then((response) => {
+      onNewData(response.data);
+    });
+    // .catch(error => setMessage(error.response.data))
+  };
 
-    return(
-            <Form>
-            <button type="submit">Calculate the predicted price in Finland</button>
-            {fields}
+  return (
+    <form onSubmit={fetchFromMobile}>
+      <TextField
+        className="input"
+        placeholder="Paste the URL here"
+        value={url}
+        onChange={handleInputChange}
+      />
+      <Button type="submit">Fetch</Button>
+    </form>
+  );
+};
+
+const resolveInputType = (input_type) => {
+  switch (typeof input_type) {
+    case "boolean":
+      return "checkbox";
+    case "number":
+      return "number";
+    default:
+      return "text";
+  }
+};
+
+const formatLabel = (key) => {
+  key = key.replaceAll("_", " ");
+  return Array.from(key)
+    .map((c) => (c.charCodeAt(0) >= 97 ? c : ` ${c}`.toLowerCase()))
+    .join("")
+    .trim();
+};
+
+const CarForm = ({ formData, onSubmit }) => {
+  const fields = Object.entries(formData).map(([key, value]) => [
+    key,
+    value,
+    resolveInputType(value),
+  ]);
+  const basicDetails = fields
+    .filter((x) => x[2] !== "checkbox")
+    .map(([key, value, inputType]) => {
+      return (
+        <div className={classNames("input-group", inputType)} key={key}>
+          <Field id={key} name={key} type={resolveInputType(value)}>
+            {({ field }) => (
+              <TextField
+                fullWidth
+                label={formatLabel(key)}
+                type={inputType}
+                {...field}
+                
+                disabled={!allowedFields.has(key)}
+              />
+            )}
+          </Field>
+        </div>
+      );
+    });
+
+  const extras = fields
+    .filter((x) => x[2] === "checkbox")
+    .map(([key, value, inputType]) => {
+      return (
+        <div className={classNames("input-group", inputType)} key={key}>
+          <Field id={key} name={key} type={resolveInputType(value)}>
+            {({ field }) => {
+              return (
+                <FormControlLabel
+                  control={<Checkbox fullWidth {...field} />}
+                  label={formatLabel(key)}
+                />
+              );
+            }}
+          </Field>
+        </div>
+      );
+    });
+
+  return (
+    <div className="car-detail-form">
+      <Formik
+        initialValues={formData}
+        onSubmit={onSubmit}
+        enableReinitialize={true}
+      >
+        <Form>
+          <div className="car-detail-submit">
+            <Button type="submit" variant="contained">
+              Get prediction
+            </Button>
+          </div>
+
+          <h2>Basic details</h2>
+
+          <div className="car-detail-inputs">{basicDetails}</div>
+
+          <h2>Extras</h2>
+
+          <div className="car-detail-extras">{extras}</div>
         </Form>
-    )
-}
+      </Formik>
+    </div>
+  );
+};
+
+
+
+const CarAnalytics = ({ prediction }) => {
+  return (
+    <div className="car-analytics-section">
+      <p>
+        About <b> {prediction.price}</b>
+      </p>
+    </div>
+  );
+};
 
 function App() {
-    const [url, setUrl] = useState("")
-    const [message, setMessage] = useState("")
-    const [formData, setFormData] = useState({})
-    const [carImageUrl, setCarImageUrl] = useState("")
-    
-    const fetchFromMobile = (event) => {
-        event.preventDefault()
+  const [formData, setFormData] = useState();
+  const [carImageUrl, setCarImageUrl] = useState("");
+  const [prediction, setPrediction] = useState();
 
-        setMessage("Fetching data from Mobile...")
-        
-        axios
-            .post("http://localhost:5000/fetch", { "url": url })
-            .then(response => {
-                setFormData(response.data.car_data)
-                setCarImageUrl(response.data.img_url)
-                setMessage("Success!")
-            })
-            .catch(error => setMessage(error.response.data))
-        setUrl("")
+  const handleNewCarData = (data) => {
+    if (data) {
+      setFormData(data.car_data);
+      setCarImageUrl(data.img_url);
     }
-    
-    const submitForm = (values) => {
-        console.log(values)
-        
-        axios
-            .post("http://localhost:5000/predict", { "query": values })
-            .then(response => setMessage("Predicted price: " + response.data.prediction.price))
-            .catch(error => setMessage(error.response.data))
-    }
-    
-    const urlChangeHandler = (event) => { setUrl(event.target.value); setMessage("") }
+  };
 
-    return (
-            <div>
-            <Title />
-            <UrlForm url={url} onSubmit={fetchFromMobile} onUrlChange={urlChangeHandler} />
-            <Message value={message} />
+  const submitForm = (values) => {
+    axios
+      .post("http://localhost:3000/predict", { query: values })
+      .then((response) => setPrediction(response.data));
+    // .catch(error => setMessage(error.response.data))
+  };
 
-            <Formik initialValues={formData} onSubmit={submitForm} enableReinitialize={true}>
-            <CarForm initialValues={formData} />
-            </Formik>
-            
-            <Image src={carImageUrl} alt="car" width="500" />
-            </div>
-    )
+  return (
+    <div className="app">
+      <div
+        className={classNames("search-container", {
+          "padding-top-30vh": !formData,
+        })}
+      >
+        <Title />
+        <UrlForm onNewData={handleNewCarData} />
+      </div>
+
+      {carImageUrl && (
+        <div className="car-image-section">
+          <div className="car-image-wrapper">
+            <img src={carImageUrl} alt={`${formData.make} ${formData.model}`} />
+          </div>
+        </div>
+      )}
+
+      {prediction && <CarAnalytics {...prediction} />}
+
+      {formData && (
+        <CarForm
+          formData={formData}
+          onSubmit={submitForm}
+          carImageUrl={carImageUrl}
+        />
+      )}
+    </div>
+  );
 }
 
 export default App;

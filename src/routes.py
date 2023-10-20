@@ -24,6 +24,8 @@ with open(DATA_COLUMN_FILE,"r") as f:
 xgb_regressor = xgb.XGBRegressor()
 xgb_regressor.load_model(MODEL_FILE)
 
+POOR_MANS_CACHE = {}
+
 @app.route("/schema", methods=["GET"])
 def schema():
     return json.dumps(features)
@@ -38,18 +40,21 @@ def fetch():
         url = json_data["url"]
 
         id = re.findall(MOBILE_DE_ID_REGEX,  url)[0]
-
-        html = request_car_detail_page(id)
-
-        car_data = extract_car_data(html)
-
-        img_url_regex =r'<meta property=\"og:image:url\" content=\"(https:\/\/.*.jpg)\"\/><meta property=\"og:image:type\" content=\"image\/jpeg\"\/>'
-
-        result = { "car_data": car_data,
-                   "img_url": re.findall(img_url_regex, html)[0] }
-        #car_data["img_url"] = re.findall(img_url_regex, html)[0]
         
-        return json.dumps(result)
+        if id not in POOR_MANS_CACHE:
+            html = request_car_detail_page(id)
+
+            car_data = extract_car_data(html)
+
+            img_url_regex =r'<meta property=\"og:image:url\" content=\"(https:\/\/.*.jpg)\"\/><meta property=\"og:image:type\" content=\"image\/jpeg\"\/>'
+
+            result = { "car_data": car_data,
+                    "img_url": re.findall(img_url_regex, html)[0] }
+            #car_data["img_url"] = re.findall(img_url_regex, html)[0]
+            
+            POOR_MANS_CACHE[id] = json.dumps(result)
+        return POOR_MANS_CACHE[id]
+
     
     except Exception as e:
         return f"Error occurred when fetching data: {e}", 400
