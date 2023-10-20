@@ -19,11 +19,11 @@ const Message = ({ value }) => (
 )
 
 const Image = ({ src, alt, width }) => (
-        <img src={src} alt={alt} width={width} />
+    src ? <img src={src} alt={alt} width={width} /> : ""
 )
 
 const CarForm = ({ initialValues }) => {
-    if (initialValues == undefined || Object.keys(initialValues).length == 0) {
+    if (initialValues === undefined || Object.keys(initialValues).length === 0) {
         return
     }
 
@@ -104,7 +104,7 @@ function App() {
             <CarForm initialValues={formData} />
             </Formik>
             
-            {carImageUrl ? <Image src={carImageUrl} alt="car" width="500" /> : ""}            
+            <Image src={carImageUrl} alt="car" width="500" />
             </div>
     )
 }

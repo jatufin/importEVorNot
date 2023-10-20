@@ -41,7 +41,6 @@ def fetch():
 
         html = request_car_detail_page(id)
 
-        print("EXTRACT CAR DATA")        
         car_data = extract_car_data(html)
 
         img_url_regex =r'<meta property=\"og:image:url\" content=\"(https:\/\/.*.jpg)\"\/><meta property=\"og:image:type\" content=\"image\/jpeg\"\/>'
