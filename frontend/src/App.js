@@ -3,7 +3,7 @@ import axios from "axios";
 import { Formik, Form, Field } from "formik";
 import classNames from "classnames";
 
-import { Button, TextField, FormControlLabel, Checkbox } from "@mui/material";
+import { Button, TextField, FormControlLabel, Checkbox, CircularProgress } from "@mui/material";
 
 import "./style.scss";
 
@@ -16,7 +16,7 @@ const allowedFields = new Set([
 
 const Title = () => <h1>importEVorNot</h1>;
 
-const UrlForm = ({ onNewData }) => {
+const UrlForm = ({ onNewData, onLoading }) => {
   const [url, setUrl] = useState(
     "https://suchen.mobile.de/fahrzeuge/details.html?id=371685965&cn=DE&fuels=ELECTRICITY&isSearchRequest=true&pageNumber=1&scopeId=C&sortOption.sortBy=creationTime&sortOption.sortOrder=DESCENDING&action=topOfPage&top=1:1&searchId=856659eb-7a56-6dcf-7214-894d377b468c&ref=srp"
   );
@@ -26,8 +26,7 @@ const UrlForm = ({ onNewData }) => {
 
   const fetchFromMobile = (event) => {
     event.preventDefault();
-
-    // spinner
+    onLoading()
 
     axios.post("http://localhost:3000/fetch", { url: url }).then((response) => {
       onNewData(response.data);
@@ -156,13 +155,19 @@ function App() {
   const [formData, setFormData] = useState();
   const [carImageUrl, setCarImageUrl] = useState("");
   const [prediction, setPrediction] = useState();
+  const [loading, setLoading] = useState(false)
 
   const handleNewCarData = (data) => {
     if (data) {
       setFormData(data.car_data);
       setCarImageUrl(data.img_url);
     }
+    setLoading(false)
   };
+
+  const hadleNewCarDataLoading = () => {
+    setLoading(true)
+  }
 
   const submitForm = (values) => {
     axios
@@ -179,7 +184,9 @@ function App() {
         })}
       >
         <Title />
-        <UrlForm onNewData={handleNewCarData} />
+        <UrlForm onNewData={handleNewCarData} onLoading={hadleNewCarDataLoading} />
+
+        {loading && <CircularProgress className="p-1" />}
       </div>
 
       {carImageUrl && (
