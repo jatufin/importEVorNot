@@ -38,10 +38,12 @@ function App() {
     
     const fetchFromMobile = (event) => {
         event.preventDefault()
+
+        setMessage("Fecthing data from Mobile...")
         
         axios
             .post("http://localhost:5000/fetch", { "url": url })
-            .then(response => setQuery(JSON.stringify(response.data)))
+            .then(response => { setQuery(JSON.stringify(response.data)); setMessage("Success!") })
             .catch(error => setMessage(error.response.data))
         setUrl("")
     }
