@@ -17,8 +17,6 @@ MODEL_ABSOLUTE_MEAN_ERROR = 3200
 #  nettiauto/nettiauto_model.ipynb
 DATA_COLUMN_FILE = "nettiauto/data_columns.txt"
 MODEL_FILE = "nettiauto/model.json"
-EXAMPLE_X_FILE = "nettiauto/example_X.json"
-EXAMPLE_Y_FILE = "nettiauto/example_y.json"
 
 with open(DATA_COLUMN_FILE,"r") as f:
     data_columns = [line.rstrip() for line in f]
@@ -26,21 +24,13 @@ with open(DATA_COLUMN_FILE,"r") as f:
 xgb_regressor = xgb.XGBRegressor()
 xgb_regressor.load_model(MODEL_FILE)
 
-# TODO: Remove test vector, when not needed
-with open(EXAMPLE_X_FILE,"r") as f:
-    example_X = json.load(f)
-with open(EXAMPLE_Y_FILE,"r") as f:
-    example_y = json.load(f)
-
-
 @app.route("/schema", methods=["GET"])
 def schema():
     return json.dumps(features)
 
-# TODO: This is only a mock
 # Should get an URL and return a vehicle vector
-# as jsond fump of a Pandas dataframe
-# Example in file: nettiauto/example_X.json
+# as Pandas dataframe JSON dump
+# Example can be found in file: nettiauto/example_X.json
 @app.route("/fetch", methods=["POST"])
 def fetch():
     try:
@@ -62,7 +52,7 @@ def fetch():
         return f"Error occurred when fetching data: {e}", 400
 
 
-# Should get an feature vector and returns a predicted price
+# Should get an feature vector and returns the predicted price
 @app.route("/predict", methods=["POST"])
 def predict():
     try:
