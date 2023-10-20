@@ -16,9 +16,10 @@ const UrlForm = ({ onSubmit, url, onUrlChange }) => (
 
 ///////////////////
 // After the backend has fetch the data from mobile.de, it appears here
+// The user should not be able to edit this manually
 const QueryForm = ({ onSubmit, query, onQueryChange }) => (
         <form onSubmit={onSubmit} >
-        <input value={query} onChange={onQueryChange} />
+        <input value={query} onChange={onQueryChange} disabled />
         <button type="submit">Predict</button>
         </form>
 )
@@ -41,7 +42,7 @@ function App() {
         axios
             .post("http://localhost:5000/fetch", { "url": url })
             .then(response => setQuery(JSON.stringify(response.data)))
-            .catch(error => setMessage("There was a problem with fetching the advertisement."))
+            .catch(error => setMessage(error.response.data))
         setUrl("")
     }
 
@@ -51,11 +52,11 @@ function App() {
         axios
             .post("http://localhost:5000/predict", { "query": JSON.parse(query) })
             .then(response => setMessage("Predicted price: " + response.data.prediction.price))
-            .catch(error => setMessage("There was a problem with making the prediction."))
+            .catch(error => setMessage(error.response.data))
     }
     
-    const urlChangeHandler = (event) => setUrl(event.target.value)
-    const queryChangeHandler = (event) => setQuery(event.target.value)
+    const urlChangeHandler = (event) => { setUrl(event.target.value); setMessage("") }
+    const queryChangeHandler = (event) => { setQuery(event.target.value); setMessage("") }
     
     return (
             <div>
