@@ -6,6 +6,7 @@ import classNames from "classnames";
 import { Button, TextField, FormControlLabel, Checkbox, CircularProgress } from "@mui/material";
 
 import "./style.scss";
+import WaterfallChart from "./compontents/WaterfallChart";
 
 const allowedFields = new Set([
   "power",
@@ -141,12 +142,16 @@ const CarForm = ({ formData, onSubmit }) => {
 
 
 
-const CarAnalytics = ({ prediction }) => {
+const CarAnalytics = ({ prediction, original_price }) => {
   return (
     <div className="car-analytics-section">
       <p>
         About <b> {prediction.price}</b>
       </p>
+      <WaterfallChart data = {{
+        "purchasePrice" : original_price,
+        "sellingPrice" : prediction.price
+      }}/>
     </div>
   );
 };
