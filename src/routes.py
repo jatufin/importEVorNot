@@ -86,7 +86,7 @@ def predict():
                 "low": round(prediction_f - MODEL_ABSOLUTE_MEAN_ERROR),
                 "high": round(prediction_f + MODEL_ABSOLUTE_MEAN_ERROR),
             },
-            "original_price": round(json_data.get('price', 0)),
+            "original_price": round(json_data.get('query', {}).get('price', 0)),
             "price_delta": round(prediction_f - json_data.get('price', 0)),
         })
     except Exception as e:
