@@ -29,7 +29,7 @@ const UrlForm = ({ onNewData, onLoading }) => {
     event.preventDefault();
     onLoading()
 
-    axios.post("http://localhost:3000/fetch", { url: url }).then((response) => {
+    axios.post("/fetch", { url: url }).then((response) => {
       onNewData(response.data);
     });
     // .catch(error => setMessage(error.response.data))
@@ -146,8 +146,8 @@ const CarAnalytics = ({ prediction, original_price }) => {
   return (
     <div className="car-analytics-section">
       <p>
-        About <b> {prediction.price}</b>
-      </p>
+        Price in Finland about <b>{prediction.price}</b> €
+      </p> 
       <WaterfallChart data = {{
         "purchasePrice" : original_price,
         "sellingPrice" : prediction.price
@@ -167,7 +167,8 @@ function App() {
       setFormData(data.car_data);
       setCarImageUrl(data.img_url);
     }
-    setLoading(false)
+    setLoading(false);
+    setPrediction();
   };
 
   const hadleNewCarDataLoading = () => {
@@ -176,7 +177,7 @@ function App() {
 
   const submitForm = (values) => {
     axios
-      .post("http://localhost:3000/predict", { query: values })
+      .post("/predict", { query: values })
       .then((response) => setPrediction(response.data));
     // .catch(error => setMessage(error.response.data))
   };

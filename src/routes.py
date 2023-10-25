@@ -28,7 +28,13 @@ POOR_MANS_CACHE = {}
 
 @app.route("/schema", methods=["GET"])
 def schema():
+    features = xgb_regressor.get_booster().feature_names
     return json.dumps(features)
+
+# Provide UI
+@app.route('/', methods=['GET'])
+def index():
+    return app.send_static_file('index.html')
 
 # Should get an URL and return a vehicle vector
 # as Pandas dataframe JSON dump

@@ -1,3 +1,16 @@
+# Use an official Node.js runtime as a parent image for React
+FROM node:16 as build
+
+# Set the working directory for the React app
+WORKDIR /app/frontend
+
+# Copy frontend code into the container
+COPY ./frontend .
+
+# Install app dependencies and build the React app
+RUN npm install
+RUN npm run build
+
 # Use a Python base image with Poetry pre-installed
 FROM python:3.11
 
@@ -7,6 +20,9 @@ ENV PYTHONDONTWRITEBYTECODE 1
 
 # Create and set the working directory inside the container
 WORKDIR /app
+
+# Copy build into the container
+COPY --from=build /app/frontend/build ./frontend/build
 
 # Copy only the pyproject.toml and poetry.lock files to take advantage of Docker layer caching
 COPY pyproject.toml poetry.lock /app/
@@ -28,4 +44,4 @@ COPY mobile_de/mobilede_parser.py mobile_de/mobilede_utils.py /app/
 EXPOSE 5000
 
 # Define the command to run the Flask app
-CMD ["waitress-serve", "--host", "0.0.0.0", "--port", "8080", "app:app"]
+CMD ["waitress-serve", "--host", "0.0.0.0", "--port", "5000", "app:app"]
