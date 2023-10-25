@@ -63,3 +63,23 @@ $ curl --request POST --header "Content-Type: application/json" --data $VECTOR_J
 
 Returns the predicted value. (price)
 
+## Deploying production version to Fly.io
+
+Ensure a command-line utility flyctl is installed:
+```
+curl -L https://fly.io/install.sh | sh
+```
+
+When deploying app for a first time, run
+```
+fly launch
+```
+
+Otherwise a new release can be deployed with
+```
+fly deploy
+```
+
+Deployed version can be accessed via
+https://import-ev-or-not.fly.dev
+
