@@ -39,7 +39,7 @@ const UrlForm = ({ onNewData, onLoading }) => {
     <form onSubmit={fetchFromMobile}>
       <TextField
         className="input"
-        placeholder="Paste the URL here"
+        label="Paste the URL of a used electric car ad from mobile.de here."
         value={url}
         onChange={handleInputChange}
       />
@@ -139,8 +139,6 @@ const CarForm = ({ formData, onSubmit }) => {
     </div>
   );
 };
-
-
 
 const CarAnalytics = ({ prediction, original_price }) => {
   return (
