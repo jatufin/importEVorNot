@@ -83,3 +83,8 @@ fly deploy
 The deployed version can be accessed via
 https://import-ev-or-not.fly.dev
 
+## Documents
+- [Project canvas](./documents/project_canvas.pdf)
+- [Slideshow for the pitch](./documents/slideshow_for_the_pitch.pdf)
+- [Technical report](./documents/technical_report.pdf)
+- [Architecture diagram](./documents/architecture_diagram.jpg)
